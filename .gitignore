@@ -1,0 +1,6 @@
+ckpt/
+data/
+__pycache__/
+.idea/
+cifar100/
+cifar100_meta_find

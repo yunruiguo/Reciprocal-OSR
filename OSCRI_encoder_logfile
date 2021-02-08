@@ -1,0 +1,28 @@
+2021-02-09 00:45:46,375 INFO Number of model parameters: 1147332
+2021-02-09 00:45:46,376 INFO EPOCH 0
+2021-02-09 00:45:46,376 INFO Learning rate: 0.01
+2021-02-09 00:46:23,669 INFO Number of model parameters: 1147332
+2021-02-09 00:46:23,674 INFO EPOCH 0
+2021-02-09 00:46:23,674 INFO Learning rate: 0.01
+2021-02-09 00:49:37,617 INFO Number of model parameters: 1147332
+2021-02-09 00:49:37,618 INFO EPOCH 0
+2021-02-09 00:49:37,618 INFO Learning rate: 0.01
+2021-02-09 00:49:52,438 INFO Training Accuracy is: 0.28685
+2021-02-09 00:49:52,439 INFO Average overall training loss in epoch is: 2.1268500497817993
+2021-02-09 00:49:52,439 INFO beginning validation
+2021-02-09 00:49:55,744 INFO Used Validation Accuracy is : 0.3152
+2021-02-09 00:49:55,744 INFO Used Average validation loss is: 1.3601929063796998
+2021-02-09 00:49:55,744 INFO finished validation
+2021-02-09 00:49:55,756 INFO EPOCH 1
+2021-02-09 00:49:55,756 INFO Learning rate: 0.01
+2021-02-09 00:50:12,040 INFO Training Accuracy is: 0.33895
+2021-02-09 00:50:12,041 INFO Average overall training loss in epoch is: 1.3796946823120118
+2021-02-09 00:50:12,041 INFO beginning validation
+2021-02-09 00:50:15,288 INFO Used Validation Accuracy is : 0.43635
+2021-02-09 00:50:15,289 INFO Used Average validation loss is: 1.2452020711898804
+2021-02-09 00:50:15,289 INFO finished validation
+2021-02-09 00:50:15,322 INFO EPOCH 2
+2021-02-09 00:50:15,322 INFO Learning rate: 0.01
+2021-02-09 00:50:30,868 INFO Training Accuracy is: 0.38085
+2021-02-09 00:50:30,868 INFO Average overall training loss in epoch is: 1.3308012809753418
+2021-02-09 00:50:30,869 INFO beginning validation
