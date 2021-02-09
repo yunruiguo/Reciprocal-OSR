@@ -1,7 +1,7 @@
 import argparse
 import logging
-import math
-import os
+from tqdm import tqdm
+import os, time
 import numpy as np
 import torch
 import torch.nn as nn
@@ -105,27 +105,38 @@ if __name__ == '__main__':
 
     if args.dataset in ['mnist', 'svhn', 'cifar10']:
         known_num_classes = 6
+        if args.dataset == 'mnist':
+            train_trans = transforms.Compose([transforms.Resize((32, 32)),
+                                              transforms.ToTensor()])
+            val_trans = transforms.Compose([transforms.Resize((32, 32)),
+                                            transforms.ToTensor()])
+        else:
+            train_trans = transforms.Compose([transforms.RandomResizedCrop((32, 32)),
+                                              transforms.RandomHorizontalFlip(0.5),
+                                              transforms.ToTensor()])
+            val_trans = transforms.Compose([transforms.ToTensor()])
     elif args.dataset in ['cifar10plus', 'cifar50plus']:
         known_num_classes = 4
+        train_trans = transforms.Compose([transforms.RandomResizedCrop((32, 32)),
+                                          transforms.RandomHorizontalFlip(0.5),
+                                          transforms.ToTensor()])
+        val_trans = transforms.Compose([transforms.ToTensor()])
     elif args.dataset == 'tiny_imagenet':
         known_num_classes = 20
+        train_trans = transforms.Compose([transforms.Resize((45, 45)),
+                                          transforms.RandomHorizontalFlip(0.5),
+                                          transforms.RandomCrop((32, 32)),
+                                          transforms.ToTensor()])
+        val_trans = transforms.Compose([transforms.Resize((45, 45)),
+                                        transforms.CenterCrop((32, 32)),
+                                        transforms.ToTensor()])
     else:
         raise ValueError('Wrong dataset.')
 
 
     logging.info("Number of seen classes: " + str(known_num_classes))
-
-    dataset = CIFARDataset(train_obj, meta_dict, class_to_idx,
-                           transforms.Compose([
-                               transforms.Resize((45, 45)),
-                               transforms.RandomHorizontalFlip(0.5),
-                               transforms.RandomCrop((32, 32)),
-                               transforms.ToTensor()]))
-    val_dataset = CIFARDataset(train_obj, meta_dict, class_to_idx,
-                               transforms.Compose([
-                                   transforms.Resize((45, 45)),
-                                   transforms.CenterCrop((32, 32)),
-                               transforms.ToTensor()]))
+    dataset = CIFARDataset(train_obj, meta_dict, class_to_idx, train_trans)
+    val_dataset = CIFARDataset(train_obj, meta_dict, class_to_idx, val_trans)
 
     if args.backbone == 'OSCRI_encoder':
         model = encoder32(meta_dict['image_size'], meta_dict['image_channels'], args.latent_size, num_classes=known_num_classes, num_rp_per_cls=args.num_rp_per_cls, gap=args.gap == 'TRUE')
@@ -145,7 +156,7 @@ if __name__ == '__main__':
 
     if args.lr_scheduler == 'step':
         optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=args.lr)
-        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.1)
+        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=50, gamma=0.1)
     elif args.lr_scheduler == 'patience':
         optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=args.lr)
         scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=args.patience, verbose=True)
@@ -154,7 +165,7 @@ if __name__ == '__main__':
 
     train_loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers)
-    train_n = len(dataset)
+    train_n = len(train_loader.dataset)
     best_used_running_loss = 100000000
     best_val_acc = 0.
 
@@ -163,10 +174,6 @@ if __name__ == '__main__':
     for epoch in range(args.n_epochs):
         model.train()
         logger.info("EPOCH " + str(epoch))
-        running_loss = 0.0
-        train_rpl_loss = 0.
-        train_std_loss = 0.0
-        train_correct = 0.0
 
         actual_lr = None
         for param_group in optimizer.param_groups:
@@ -179,40 +186,41 @@ if __name__ == '__main__':
         logger.info("Learning rate: " + str(actual_lr))
         if actual_lr < 10 ** (-7):
             last_lr = True
+        tic = time.time()
+        with tqdm(total=train_n) as pbar:
+            for i, data in enumerate(train_loader, 0):
+                # get the inputs & combine positive and negatives together
+                img = data['image']
+                b = img.shape[0]
+                img = img.cuda()
 
-        for i, data in enumerate(train_loader, 0):
-            # get the inputs & combine positive and negatives together
-            img = data['image']
-            img = img.cuda()
-            
-            labels = data['label']
-            labels = labels.cuda()
-            
-            # zero the parameter gradients
-            optimizer.zero_grad()
+                labels = data['label']
+                labels = labels.cuda()
 
-            outputs = model.forward(img)
+                # zero the parameter gradients
+                optimizer.zero_grad()
+                outputs = model.forward(img)
 
-            
-            # Compute RPL loss
-            loss, open_loss, closed_loss, logits = compute_rpl_loss(model, outputs, labels, criterion, args.lamb, args.gamma, args.divide == 'TRUE')
-            train_rpl_loss += loss.item()
-            
-            loss.backward()
-            
-            optimizer.step()
+                # Compute RPL loss
+                loss, open_loss, closed_loss, logits = compute_rpl_loss(model, outputs, labels, criterion, args.lamb, args.gamma, args.divide == 'TRUE')
+                loss.backward()
+                optimizer.step()
 
-            # update loss for this epoch
-            running_loss += loss.item()
+                # update loss for this epoch
+                running_loss = loss.item()
 
-            probs = torch.softmax(logits, dim=1)
-            max_probs, max_indices = torch.max(probs, 1)
-                      
-            train_correct += torch.sum(max_indices == labels).item()
-        train_acc = train_correct/train_n
-        logger.info("Training Accuracy is: " + str(train_acc))
-        logger.info("Average overall training loss in epoch is: " + str(running_loss/train_n))
-
+                probs = torch.softmax(logits, dim=1)
+                max_probs, max_indices = torch.max(probs, 1)
+                acc = torch.sum(max_indices == labels).item() / b
+                toc = time.time()
+                pbar.set_description(
+                    (
+                        "{:.1f}s - loss: {:.3f} - acc: {:.3f}".format(
+                            (toc - tic), running_loss, acc
+                        )
+                    )
+                )
+                pbar.update(b)
         model.eval()
         used_running_loss, used_val_acc = evaluate_val(model, criterion, val_loader, args.gamma, args.lamb, args.divide, logger)
         
