@@ -156,7 +156,7 @@ def save_examples(examples):
         class_to_idx = {}
         idx_to_class = {}
 
-        meta_dict = {'num_cases_per_batch': 10000, 'num_vis': 3072}
+        meta_dict = {'image_size': 32, 'image_channels': 3}
         meta_dict['label_names'] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
         fake_index = 0
         for _idx in range(10):
@@ -164,14 +164,14 @@ def save_examples(examples):
                 idx_to_class[fake_index] = _idx
                 class_to_idx[_idx] = fake_index
                 fake_index += 1
-        train_obj_ = '{}/split{}/train_obj.pkl'.format(DATA_DIR, idx)
-        test_obj_ = '{}/split{}/test_obj.pkl'.format(DATA_DIR, idx)
-        open_test_obj_ = '{}/split{}/open_test_obj.pkl'.format(DATA_DIR, idx)
-        idx_to_class_ = '{}/split{}/idx_to_class.pkl'.format(DATA_DIR, idx)
-        class_to_idx_ = '{}/split{}/class_to_idx.pkl'.format(DATA_DIR, idx)
-        meta_ = '{}/split{}/meta.pkl'.format(DATA_DIR, idx)
-        open_class_to_idx_ = '{}/split{}/open_class_to_idx.pkl'.format(DATA_DIR, idx)
-        open_idx_to_class_ = '{}/split{}/open_idx_to_class.pkl'.format(DATA_DIR, idx)
+        train_obj_ = '{}/split{}/train_obj.pkl'.format(DATASET_PATH, idx)
+        test_obj_ = '{}/split{}/test_obj.pkl'.format(DATASET_PATH, idx)
+        open_test_obj_ = '{}/split{}/open_test_obj.pkl'.format(DATASET_PATH, idx)
+        idx_to_class_ = '{}/split{}/idx_to_class.pkl'.format(DATASET_PATH, idx)
+        class_to_idx_ = '{}/split{}/class_to_idx.pkl'.format(DATASET_PATH, idx)
+        meta_ = '{}/split{}/meta.pkl'.format(DATASET_PATH, idx)
+        open_class_to_idx_ = '{}/split{}/open_class_to_idx.pkl'.format(DATASET_PATH, idx)
+        open_idx_to_class_ = '{}/split{}/open_idx_to_class.pkl'.format(DATASET_PATH, idx)
 
         save_svhn_dataset(train_examples, train_obj_)
         save_svhn_dataset(test_examples, test_obj_)

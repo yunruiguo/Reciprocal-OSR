@@ -2493,3 +2493,1735 @@
 2021-02-09 11:23:44,102 INFO finished validation
 2021-02-09 11:23:44,130 INFO EPOCH 11
 2021-02-09 11:23:44,130 INFO Learning rate: 0.01
+2021-02-09 11:24:01,611 INFO beginning validation
+2021-02-09 11:24:04,773 INFO Used Validation Accuracy is : 0.71485
+2021-02-09 11:24:04,774 INFO Used Average validation loss is: 0.7315740844726563
+2021-02-09 11:24:04,774 INFO finished validation
+2021-02-09 11:24:04,792 INFO EPOCH 12
+2021-02-09 11:24:04,792 INFO Learning rate: 0.01
+2021-02-09 11:24:20,513 INFO beginning validation
+2021-02-09 11:24:23,773 INFO Used Validation Accuracy is : 0.68745
+2021-02-09 11:24:23,773 INFO Used Average validation loss is: 0.770860433292389
+2021-02-09 11:24:23,773 INFO finished validation
+2021-02-09 11:24:23,774 INFO EPOCH 13
+2021-02-09 11:24:23,774 INFO Learning rate: 0.01
+2021-02-09 11:24:39,455 INFO beginning validation
+2021-02-09 11:24:42,747 INFO Used Validation Accuracy is : 0.713
+2021-02-09 11:24:42,748 INFO Used Average validation loss is: 0.7432139382362366
+2021-02-09 11:24:42,748 INFO finished validation
+2021-02-09 11:24:42,749 INFO EPOCH 14
+2021-02-09 11:24:42,749 INFO Learning rate: 0.01
+2021-02-09 11:24:58,577 INFO beginning validation
+2021-02-09 11:25:01,936 INFO Used Validation Accuracy is : 0.7958
+2021-02-09 11:25:01,936 INFO Used Average validation loss is: 0.5570732332229614
+2021-02-09 11:25:01,937 INFO finished validation
+2021-02-09 11:25:01,955 INFO EPOCH 15
+2021-02-09 11:25:01,956 INFO Learning rate: 0.01
+2021-02-09 11:25:18,155 INFO beginning validation
+2021-02-09 11:25:21,360 INFO Used Validation Accuracy is : 0.7772
+2021-02-09 11:25:21,360 INFO Used Average validation loss is: 0.5737071252822876
+2021-02-09 11:25:21,360 INFO finished validation
+2021-02-09 11:25:21,361 INFO EPOCH 16
+2021-02-09 11:25:21,361 INFO Learning rate: 0.01
+2021-02-09 11:25:34,972 INFO beginning validation
+2021-02-09 11:25:38,212 INFO Used Validation Accuracy is : 0.7862
+2021-02-09 11:25:38,212 INFO Used Average validation loss is: 0.5434041703224182
+2021-02-09 11:25:38,212 INFO finished validation
+2021-02-09 11:25:38,213 INFO EPOCH 17
+2021-02-09 11:25:38,213 INFO Learning rate: 0.01
+2021-02-09 11:25:54,445 INFO beginning validation
+2021-02-09 11:25:57,696 INFO Used Validation Accuracy is : 0.7719
+2021-02-09 11:25:57,697 INFO Used Average validation loss is: 0.5784900726318359
+2021-02-09 11:25:57,697 INFO finished validation
+2021-02-09 11:25:57,698 INFO EPOCH 18
+2021-02-09 11:25:57,698 INFO Learning rate: 0.01
+2021-02-09 11:26:13,817 INFO beginning validation
+2021-02-09 11:26:17,220 INFO Used Validation Accuracy is : 0.8028
+2021-02-09 11:26:17,221 INFO Used Average validation loss is: 0.504440846824646
+2021-02-09 11:26:17,221 INFO finished validation
+2021-02-09 11:26:17,255 INFO EPOCH 19
+2021-02-09 11:26:17,255 INFO Learning rate: 0.01
+2021-02-09 11:26:33,623 INFO beginning validation
+2021-02-09 11:26:36,800 INFO Used Validation Accuracy is : 0.81825
+2021-02-09 11:26:36,800 INFO Used Average validation loss is: 0.48922969427108765
+2021-02-09 11:26:36,800 INFO finished validation
+2021-02-09 11:26:36,829 INFO EPOCH 20
+2021-02-09 11:26:36,829 INFO Learning rate: 0.01
+2021-02-09 11:26:52,550 INFO beginning validation
+2021-02-09 11:26:56,018 INFO Used Validation Accuracy is : 0.8359
+2021-02-09 11:26:56,019 INFO Used Average validation loss is: 0.44277770528793337
+2021-02-09 11:26:56,019 INFO finished validation
+2021-02-09 11:26:56,039 INFO EPOCH 21
+2021-02-09 11:26:56,040 INFO Learning rate: 0.01
+2021-02-09 11:27:12,390 INFO beginning validation
+2021-02-09 11:27:15,660 INFO Used Validation Accuracy is : 0.8414
+2021-02-09 11:27:15,661 INFO Used Average validation loss is: 0.428830477809906
+2021-02-09 11:27:15,661 INFO finished validation
+2021-02-09 11:27:15,680 INFO EPOCH 22
+2021-02-09 11:27:15,680 INFO Learning rate: 0.01
+2021-02-09 11:27:32,704 INFO beginning validation
+2021-02-09 11:27:36,023 INFO Used Validation Accuracy is : 0.84175
+2021-02-09 11:27:36,024 INFO Used Average validation loss is: 0.4218003417491913
+2021-02-09 11:27:36,024 INFO finished validation
+2021-02-09 11:27:36,052 INFO EPOCH 23
+2021-02-09 11:27:36,052 INFO Learning rate: 0.01
+2021-02-09 11:27:52,529 INFO beginning validation
+2021-02-09 11:27:55,964 INFO Used Validation Accuracy is : 0.7921
+2021-02-09 11:27:55,965 INFO Used Average validation loss is: 0.6182645094394684
+2021-02-09 11:27:55,965 INFO finished validation
+2021-02-09 11:27:55,965 INFO EPOCH 24
+2021-02-09 11:27:55,965 INFO Learning rate: 0.01
+2021-02-09 11:28:13,122 INFO beginning validation
+2021-02-09 11:28:16,768 INFO Used Validation Accuracy is : 0.8229
+2021-02-09 11:28:16,769 INFO Used Average validation loss is: 0.4835188223838806
+2021-02-09 11:28:16,769 INFO finished validation
+2021-02-09 11:28:16,769 INFO EPOCH 25
+2021-02-09 11:28:16,769 INFO Learning rate: 0.01
+2021-02-09 11:28:34,491 INFO beginning validation
+2021-02-09 11:28:37,709 INFO Used Validation Accuracy is : 0.8674
+2021-02-09 11:28:37,710 INFO Used Average validation loss is: 0.35401415321826935
+2021-02-09 11:28:37,710 INFO finished validation
+2021-02-09 11:28:37,740 INFO EPOCH 26
+2021-02-09 11:28:37,740 INFO Learning rate: 0.01
+2021-02-09 11:28:54,568 INFO beginning validation
+2021-02-09 11:28:58,014 INFO Used Validation Accuracy is : 0.8585
+2021-02-09 11:28:58,014 INFO Used Average validation loss is: 0.38008075892925264
+2021-02-09 11:28:58,014 INFO finished validation
+2021-02-09 11:28:58,015 INFO EPOCH 27
+2021-02-09 11:28:58,015 INFO Learning rate: 0.01
+2021-02-09 11:29:13,085 INFO beginning validation
+2021-02-09 11:29:16,325 INFO Used Validation Accuracy is : 0.8766
+2021-02-09 11:29:16,325 INFO Used Average validation loss is: 0.3292850598335266
+2021-02-09 11:29:16,325 INFO finished validation
+2021-02-09 11:29:16,350 INFO EPOCH 28
+2021-02-09 11:29:16,350 INFO Learning rate: 0.01
+2021-02-09 11:29:33,323 INFO beginning validation
+2021-02-09 11:29:36,817 INFO Used Validation Accuracy is : 0.8592
+2021-02-09 11:29:36,817 INFO Used Average validation loss is: 0.39313133764266966
+2021-02-09 11:29:36,817 INFO finished validation
+2021-02-09 11:29:36,817 INFO EPOCH 29
+2021-02-09 11:29:36,818 INFO Learning rate: 0.01
+2021-02-09 11:29:52,039 INFO beginning validation
+2021-02-09 11:29:55,275 INFO Used Validation Accuracy is : 0.85885
+2021-02-09 11:29:55,276 INFO Used Average validation loss is: 0.3858173300743103
+2021-02-09 11:29:55,276 INFO finished validation
+2021-02-09 11:29:55,277 INFO EPOCH 30
+2021-02-09 11:29:55,277 INFO Learning rate: 0.01
+2021-02-09 11:30:11,056 INFO beginning validation
+2021-02-09 11:30:14,352 INFO Used Validation Accuracy is : 0.8802
+2021-02-09 11:30:14,352 INFO Used Average validation loss is: 0.3345001315832138
+2021-02-09 11:30:14,353 INFO finished validation
+2021-02-09 11:30:14,381 INFO EPOCH 31
+2021-02-09 11:30:14,381 INFO Learning rate: 0.01
+2021-02-09 11:30:32,209 INFO beginning validation
+2021-02-09 11:30:35,346 INFO Used Validation Accuracy is : 0.87835
+2021-02-09 11:30:35,347 INFO Used Average validation loss is: 0.33590248417854307
+2021-02-09 11:30:35,347 INFO finished validation
+2021-02-09 11:30:35,348 INFO EPOCH 32
+2021-02-09 11:30:35,348 INFO Learning rate: 0.01
+2021-02-09 11:30:50,748 INFO beginning validation
+2021-02-09 11:30:54,013 INFO Used Validation Accuracy is : 0.86315
+2021-02-09 11:30:54,014 INFO Used Average validation loss is: 0.364534063911438
+2021-02-09 11:30:54,014 INFO finished validation
+2021-02-09 11:30:54,015 INFO EPOCH 33
+2021-02-09 11:30:54,015 INFO Learning rate: 0.01
+2021-02-09 11:31:09,903 INFO beginning validation
+2021-02-09 11:31:13,041 INFO Used Validation Accuracy is : 0.88695
+2021-02-09 11:31:13,041 INFO Used Average validation loss is: 0.3137468655824661
+2021-02-09 11:31:13,041 INFO finished validation
+2021-02-09 11:31:13,062 INFO EPOCH 34
+2021-02-09 11:31:13,062 INFO Learning rate: 0.01
+2021-02-09 11:31:28,803 INFO beginning validation
+2021-02-09 11:31:32,073 INFO Used Validation Accuracy is : 0.88
+2021-02-09 11:31:32,074 INFO Used Average validation loss is: 0.31610646891593935
+2021-02-09 11:31:32,074 INFO finished validation
+2021-02-09 11:31:32,075 INFO EPOCH 35
+2021-02-09 11:31:32,075 INFO Learning rate: 0.01
+2021-02-09 11:31:48,781 INFO beginning validation
+2021-02-09 11:31:51,922 INFO Used Validation Accuracy is : 0.89115
+2021-02-09 11:31:51,923 INFO Used Average validation loss is: 0.30207634580135345
+2021-02-09 11:31:51,923 INFO finished validation
+2021-02-09 11:31:52,013 INFO EPOCH 36
+2021-02-09 11:31:52,013 INFO Learning rate: 0.01
+2021-02-09 11:32:06,434 INFO beginning validation
+2021-02-09 11:32:09,692 INFO Used Validation Accuracy is : 0.88855
+2021-02-09 11:32:09,692 INFO Used Average validation loss is: 0.31428590054512023
+2021-02-09 11:32:09,692 INFO finished validation
+2021-02-09 11:32:09,692 INFO EPOCH 37
+2021-02-09 11:32:09,693 INFO Learning rate: 0.01
+2021-02-09 11:32:26,473 INFO beginning validation
+2021-02-09 11:32:30,064 INFO Used Validation Accuracy is : 0.8769
+2021-02-09 11:32:30,064 INFO Used Average validation loss is: 0.349689603638649
+2021-02-09 11:32:30,065 INFO finished validation
+2021-02-09 11:32:30,065 INFO EPOCH 38
+2021-02-09 11:32:30,065 INFO Learning rate: 0.01
+2021-02-09 11:32:46,694 INFO beginning validation
+2021-02-09 11:32:49,927 INFO Used Validation Accuracy is : 0.89005
+2021-02-09 11:32:49,927 INFO Used Average validation loss is: 0.30172659146785735
+2021-02-09 11:32:49,927 INFO finished validation
+2021-02-09 11:32:49,928 INFO EPOCH 39
+2021-02-09 11:32:49,928 INFO Learning rate: 0.01
+2021-02-09 11:33:06,320 INFO beginning validation
+2021-02-09 11:33:09,574 INFO Used Validation Accuracy is : 0.9046
+2021-02-09 11:33:09,574 INFO Used Average validation loss is: 0.2654428009867668
+2021-02-09 11:33:09,574 INFO finished validation
+2021-02-09 11:33:09,592 INFO EPOCH 40
+2021-02-09 11:33:09,592 INFO Learning rate: 0.01
+2021-02-09 11:33:26,312 INFO beginning validation
+2021-02-09 11:33:29,893 INFO Used Validation Accuracy is : 0.90295
+2021-02-09 11:33:29,893 INFO Used Average validation loss is: 0.26463197575807573
+2021-02-09 11:33:29,893 INFO finished validation
+2021-02-09 11:33:29,894 INFO EPOCH 41
+2021-02-09 11:33:29,894 INFO Learning rate: 0.01
+2021-02-09 11:33:47,219 INFO beginning validation
+2021-02-09 11:33:50,425 INFO Used Validation Accuracy is : 0.8688
+2021-02-09 11:33:50,426 INFO Used Average validation loss is: 0.36562058980464934
+2021-02-09 11:33:50,426 INFO finished validation
+2021-02-09 11:33:50,426 INFO EPOCH 42
+2021-02-09 11:33:50,427 INFO Learning rate: 0.01
+2021-02-09 11:34:07,616 INFO beginning validation
+2021-02-09 11:34:10,819 INFO Used Validation Accuracy is : 0.91295
+2021-02-09 11:34:10,820 INFO Used Average validation loss is: 0.24045243604183197
+2021-02-09 11:34:10,820 INFO finished validation
+2021-02-09 11:34:10,848 INFO EPOCH 43
+2021-02-09 11:34:10,848 INFO Learning rate: 0.01
+2021-02-09 11:34:27,408 INFO beginning validation
+2021-02-09 11:34:30,808 INFO Used Validation Accuracy is : 0.913
+2021-02-09 11:34:30,809 INFO Used Average validation loss is: 0.23941647634506225
+2021-02-09 11:34:30,809 INFO finished validation
+2021-02-09 11:34:30,828 INFO EPOCH 44
+2021-02-09 11:34:30,828 INFO Learning rate: 0.01
+2021-02-09 11:34:46,219 INFO beginning validation
+2021-02-09 11:34:49,477 INFO Used Validation Accuracy is : 0.8784
+2021-02-09 11:34:49,477 INFO Used Average validation loss is: 0.3479812839984894
+2021-02-09 11:34:49,477 INFO finished validation
+2021-02-09 11:34:49,478 INFO EPOCH 45
+2021-02-09 11:34:49,478 INFO Learning rate: 0.01
+2021-02-09 11:35:03,625 INFO beginning validation
+2021-02-09 11:35:06,894 INFO Used Validation Accuracy is : 0.91195
+2021-02-09 11:35:06,895 INFO Used Average validation loss is: 0.23411226603984833
+2021-02-09 11:35:06,895 INFO finished validation
+2021-02-09 11:35:06,895 INFO EPOCH 46
+2021-02-09 11:35:06,896 INFO Learning rate: 0.01
+2021-02-09 11:35:22,095 INFO beginning validation
+2021-02-09 11:35:25,343 INFO Used Validation Accuracy is : 0.8887
+2021-02-09 11:35:25,343 INFO Used Average validation loss is: 0.31628702936172487
+2021-02-09 11:35:25,343 INFO finished validation
+2021-02-09 11:35:25,344 INFO EPOCH 47
+2021-02-09 11:35:25,344 INFO Learning rate: 0.01
+2021-02-09 11:35:42,270 INFO beginning validation
+2021-02-09 11:35:45,702 INFO Used Validation Accuracy is : 0.915
+2021-02-09 11:35:45,702 INFO Used Average validation loss is: 0.23521591728925706
+2021-02-09 11:35:45,702 INFO finished validation
+2021-02-09 11:35:45,716 INFO EPOCH 48
+2021-02-09 11:35:45,716 INFO Learning rate: 0.01
+2021-02-09 11:36:02,365 INFO beginning validation
+2021-02-09 11:36:05,488 INFO Used Validation Accuracy is : 0.9127
+2021-02-09 11:36:05,488 INFO Used Average validation loss is: 0.24442638516426085
+2021-02-09 11:36:05,488 INFO finished validation
+2021-02-09 11:36:05,489 INFO EPOCH 49
+2021-02-09 11:36:05,489 INFO Learning rate: 0.01
+2021-02-09 11:36:22,970 INFO beginning validation
+2021-02-09 11:36:26,301 INFO Used Validation Accuracy is : 0.89505
+2021-02-09 11:36:26,301 INFO Used Average validation loss is: 0.28603495984077454
+2021-02-09 11:36:26,302 INFO finished validation
+2021-02-09 11:36:26,302 INFO EPOCH 50
+2021-02-09 11:36:26,302 INFO Learning rate: 0.001
+2021-02-09 11:36:38,584 INFO beginning validation
+2021-02-09 11:36:42,372 INFO Used Validation Accuracy is : 0.9326
+2021-02-09 11:36:42,372 INFO Used Average validation loss is: 0.18496679196357727
+2021-02-09 11:36:42,372 INFO finished validation
+2021-02-09 11:36:42,402 INFO EPOCH 51
+2021-02-09 11:36:42,402 INFO Learning rate: 0.001
+2021-02-09 11:36:58,588 INFO beginning validation
+2021-02-09 11:37:01,798 INFO Used Validation Accuracy is : 0.936
+2021-02-09 11:37:01,798 INFO Used Average validation loss is: 0.17735762240886688
+2021-02-09 11:37:01,798 INFO finished validation
+2021-02-09 11:37:01,818 INFO EPOCH 52
+2021-02-09 11:37:01,818 INFO Learning rate: 0.001
+2021-02-09 11:37:16,557 INFO beginning validation
+2021-02-09 11:37:19,739 INFO Used Validation Accuracy is : 0.93655
+2021-02-09 11:37:19,739 INFO Used Average validation loss is: 0.1751535449385643
+2021-02-09 11:37:19,739 INFO finished validation
+2021-02-09 11:37:19,769 INFO EPOCH 53
+2021-02-09 11:37:19,769 INFO Learning rate: 0.001
+2021-02-09 11:37:37,295 INFO beginning validation
+2021-02-09 11:37:40,518 INFO Used Validation Accuracy is : 0.9358
+2021-02-09 11:37:40,519 INFO Used Average validation loss is: 0.1756855996966362
+2021-02-09 11:37:40,519 INFO finished validation
+2021-02-09 11:37:40,520 INFO EPOCH 54
+2021-02-09 11:37:40,520 INFO Learning rate: 0.001
+2021-02-09 11:37:57,304 INFO beginning validation
+2021-02-09 11:38:00,576 INFO Used Validation Accuracy is : 0.94085
+2021-02-09 11:38:00,576 INFO Used Average validation loss is: 0.16704197167158127
+2021-02-09 11:38:00,576 INFO finished validation
+2021-02-09 11:38:00,598 INFO EPOCH 55
+2021-02-09 11:38:00,599 INFO Learning rate: 0.001
+2021-02-09 11:38:18,225 INFO beginning validation
+2021-02-09 11:38:21,488 INFO Used Validation Accuracy is : 0.93975
+2021-02-09 11:38:21,488 INFO Used Average validation loss is: 0.16298333468437196
+2021-02-09 11:38:21,489 INFO finished validation
+2021-02-09 11:38:21,489 INFO EPOCH 56
+2021-02-09 11:38:21,489 INFO Learning rate: 0.001
+2021-02-09 11:38:35,669 INFO beginning validation
+2021-02-09 11:38:38,844 INFO Used Validation Accuracy is : 0.937
+2021-02-09 11:38:38,844 INFO Used Average validation loss is: 0.16917540509700776
+2021-02-09 11:38:38,844 INFO finished validation
+2021-02-09 11:38:38,845 INFO EPOCH 57
+2021-02-09 11:38:38,845 INFO Learning rate: 0.001
+2021-02-09 11:38:54,831 INFO beginning validation
+2021-02-09 11:38:58,105 INFO Used Validation Accuracy is : 0.9405
+2021-02-09 11:38:58,106 INFO Used Average validation loss is: 0.16625106048583985
+2021-02-09 11:38:58,106 INFO finished validation
+2021-02-09 11:38:58,107 INFO EPOCH 58
+2021-02-09 11:38:58,107 INFO Learning rate: 0.001
+2021-02-09 11:39:14,354 INFO beginning validation
+2021-02-09 11:39:17,468 INFO Used Validation Accuracy is : 0.9401
+2021-02-09 11:39:17,468 INFO Used Average validation loss is: 0.1621830691099167
+2021-02-09 11:39:17,468 INFO finished validation
+2021-02-09 11:39:17,469 INFO EPOCH 59
+2021-02-09 11:39:17,469 INFO Learning rate: 0.001
+2021-02-09 11:39:32,949 INFO beginning validation
+2021-02-09 11:39:36,407 INFO Used Validation Accuracy is : 0.94045
+2021-02-09 11:39:36,408 INFO Used Average validation loss is: 0.16035838199853897
+2021-02-09 11:39:36,408 INFO finished validation
+2021-02-09 11:39:36,409 INFO EPOCH 60
+2021-02-09 11:39:36,409 INFO Learning rate: 0.001
+2021-02-09 11:39:53,241 INFO beginning validation
+2021-02-09 11:39:56,622 INFO Used Validation Accuracy is : 0.9434
+2021-02-09 11:39:56,623 INFO Used Average validation loss is: 0.1552363650083542
+2021-02-09 11:39:56,623 INFO finished validation
+2021-02-09 11:39:56,651 INFO EPOCH 61
+2021-02-09 11:39:56,651 INFO Learning rate: 0.001
+2021-02-09 11:40:12,138 INFO beginning validation
+2021-02-09 11:40:15,494 INFO Used Validation Accuracy is : 0.94305
+2021-02-09 11:40:15,495 INFO Used Average validation loss is: 0.15563420273065567
+2021-02-09 11:40:15,495 INFO finished validation
+2021-02-09 11:40:15,496 INFO EPOCH 62
+2021-02-09 11:40:15,496 INFO Learning rate: 0.001
+2021-02-09 11:40:30,951 INFO beginning validation
+2021-02-09 11:40:35,097 INFO Used Validation Accuracy is : 0.94375
+2021-02-09 11:40:35,097 INFO Used Average validation loss is: 0.15561851249933242
+2021-02-09 11:40:35,097 INFO finished validation
+2021-02-09 11:40:35,125 INFO EPOCH 63
+2021-02-09 11:40:35,125 INFO Learning rate: 0.001
+2021-02-09 11:40:51,617 INFO beginning validation
+2021-02-09 11:40:55,399 INFO Used Validation Accuracy is : 0.94385
+2021-02-09 11:40:55,399 INFO Used Average validation loss is: 0.1536694474697113
+2021-02-09 11:40:55,399 INFO finished validation
+2021-02-09 11:40:55,428 INFO EPOCH 64
+2021-02-09 11:40:55,428 INFO Learning rate: 0.001
+2021-02-09 11:41:11,895 INFO beginning validation
+2021-02-09 11:41:15,258 INFO Used Validation Accuracy is : 0.9448
+2021-02-09 11:41:15,258 INFO Used Average validation loss is: 0.15254731876850128
+2021-02-09 11:41:15,258 INFO finished validation
+2021-02-09 11:41:15,286 INFO EPOCH 65
+2021-02-09 11:41:15,286 INFO Learning rate: 0.001
+2021-02-09 11:41:32,034 INFO beginning validation
+2021-02-09 11:41:35,745 INFO Used Validation Accuracy is : 0.9457
+2021-02-09 11:41:35,746 INFO Used Average validation loss is: 0.1544669310927391
+2021-02-09 11:41:35,746 INFO finished validation
+2021-02-09 11:41:35,774 INFO EPOCH 66
+2021-02-09 11:41:35,774 INFO Learning rate: 0.001
+2021-02-09 11:41:52,076 INFO beginning validation
+2021-02-09 11:41:55,882 INFO Used Validation Accuracy is : 0.9454
+2021-02-09 11:41:55,882 INFO Used Average validation loss is: 0.1487021752476692
+2021-02-09 11:41:55,883 INFO finished validation
+2021-02-09 11:41:55,883 INFO EPOCH 67
+2021-02-09 11:41:55,884 INFO Learning rate: 0.001
+2021-02-09 11:42:12,658 INFO beginning validation
+2021-02-09 11:42:16,628 INFO Used Validation Accuracy is : 0.94645
+2021-02-09 11:42:16,629 INFO Used Average validation loss is: 0.14708523467779158
+2021-02-09 11:42:16,629 INFO finished validation
+2021-02-09 11:42:16,658 INFO EPOCH 68
+2021-02-09 11:42:16,658 INFO Learning rate: 0.001
+2021-02-09 11:42:33,130 INFO beginning validation
+2021-02-09 11:42:36,635 INFO Used Validation Accuracy is : 0.9439
+2021-02-09 11:42:36,636 INFO Used Average validation loss is: 0.15422343320250512
+2021-02-09 11:42:36,636 INFO finished validation
+2021-02-09 11:42:36,636 INFO EPOCH 69
+2021-02-09 11:42:36,636 INFO Learning rate: 0.001
+2021-02-09 11:42:53,244 INFO beginning validation
+2021-02-09 11:42:57,374 INFO Used Validation Accuracy is : 0.9457
+2021-02-09 11:42:57,374 INFO Used Average validation loss is: 0.1485123402237892
+2021-02-09 11:42:57,374 INFO finished validation
+2021-02-09 11:42:57,374 INFO EPOCH 70
+2021-02-09 11:42:57,374 INFO Learning rate: 0.001
+2021-02-09 11:43:14,566 INFO beginning validation
+2021-02-09 11:43:18,723 INFO Used Validation Accuracy is : 0.9473
+2021-02-09 11:43:18,723 INFO Used Average validation loss is: 0.1437097116947174
+2021-02-09 11:43:18,723 INFO finished validation
+2021-02-09 11:43:18,747 INFO EPOCH 71
+2021-02-09 11:43:18,748 INFO Learning rate: 0.001
+2021-02-09 11:43:33,354 INFO beginning validation
+2021-02-09 11:43:36,659 INFO Used Validation Accuracy is : 0.9476
+2021-02-09 11:43:36,659 INFO Used Average validation loss is: 0.14271353808641435
+2021-02-09 11:43:36,659 INFO finished validation
+2021-02-09 11:43:36,685 INFO EPOCH 72
+2021-02-09 11:43:36,685 INFO Learning rate: 0.001
+2021-02-09 11:43:52,323 INFO beginning validation
+2021-02-09 11:43:55,657 INFO Used Validation Accuracy is : 0.9489
+2021-02-09 11:43:55,657 INFO Used Average validation loss is: 0.14247112971544265
+2021-02-09 11:43:55,657 INFO finished validation
+2021-02-09 11:43:55,675 INFO EPOCH 73
+2021-02-09 11:43:55,675 INFO Learning rate: 0.001
+2021-02-09 11:44:11,070 INFO beginning validation
+2021-02-09 11:44:14,215 INFO Used Validation Accuracy is : 0.94825
+2021-02-09 11:44:14,215 INFO Used Average validation loss is: 0.14219105972647667
+2021-02-09 11:44:14,215 INFO finished validation
+2021-02-09 11:44:14,216 INFO EPOCH 74
+2021-02-09 11:44:14,216 INFO Learning rate: 0.001
+2021-02-09 11:44:31,457 INFO beginning validation
+2021-02-09 11:44:34,768 INFO Used Validation Accuracy is : 0.9483
+2021-02-09 11:44:34,768 INFO Used Average validation loss is: 0.13973504983186721
+2021-02-09 11:44:34,768 INFO finished validation
+2021-02-09 11:44:34,769 INFO EPOCH 75
+2021-02-09 11:44:34,769 INFO Learning rate: 0.001
+2021-02-09 11:44:50,802 INFO beginning validation
+2021-02-09 11:44:53,964 INFO Used Validation Accuracy is : 0.94795
+2021-02-09 11:44:53,965 INFO Used Average validation loss is: 0.1424202004313469
+2021-02-09 11:44:53,965 INFO finished validation
+2021-02-09 11:44:53,965 INFO EPOCH 76
+2021-02-09 11:44:53,965 INFO Learning rate: 0.001
+2021-02-09 11:45:06,902 INFO beginning validation
+2021-02-09 11:45:10,117 INFO Used Validation Accuracy is : 0.9476
+2021-02-09 11:45:10,118 INFO Used Average validation loss is: 0.1427406524837017
+2021-02-09 11:45:10,118 INFO finished validation
+2021-02-09 11:45:10,118 INFO EPOCH 77
+2021-02-09 11:45:10,118 INFO Learning rate: 0.001
+2021-02-09 11:45:26,198 INFO beginning validation
+2021-02-09 11:45:30,700 INFO Used Validation Accuracy is : 0.9484
+2021-02-09 11:45:30,700 INFO Used Average validation loss is: 0.14128862318396568
+2021-02-09 11:45:30,700 INFO finished validation
+2021-02-09 11:45:30,701 INFO EPOCH 78
+2021-02-09 11:45:30,701 INFO Learning rate: 0.001
+2021-02-09 11:45:47,750 INFO beginning validation
+2021-02-09 11:45:52,313 INFO Used Validation Accuracy is : 0.9495
+2021-02-09 11:45:52,313 INFO Used Average validation loss is: 0.13805051486492156
+2021-02-09 11:45:52,313 INFO finished validation
+2021-02-09 11:45:52,340 INFO EPOCH 79
+2021-02-09 11:45:52,340 INFO Learning rate: 0.001
+2021-02-09 11:46:09,160 INFO beginning validation
+2021-02-09 11:46:13,630 INFO Used Validation Accuracy is : 0.95035
+2021-02-09 11:46:13,630 INFO Used Average validation loss is: 0.1364497866332531
+2021-02-09 11:46:13,630 INFO finished validation
+2021-02-09 11:46:13,652 INFO EPOCH 80
+2021-02-09 11:46:13,652 INFO Learning rate: 0.001
+2021-02-09 11:46:29,926 INFO beginning validation
+2021-02-09 11:46:34,379 INFO Used Validation Accuracy is : 0.952
+2021-02-09 11:46:34,380 INFO Used Average validation loss is: 0.13301149027943612
+2021-02-09 11:46:34,380 INFO finished validation
+2021-02-09 11:46:34,409 INFO EPOCH 81
+2021-02-09 11:46:34,410 INFO Learning rate: 0.001
+2021-02-09 11:46:51,598 INFO beginning validation
+2021-02-09 11:46:56,160 INFO Used Validation Accuracy is : 0.9518
+2021-02-09 11:46:56,161 INFO Used Average validation loss is: 0.13323456345796586
+2021-02-09 11:46:56,161 INFO finished validation
+2021-02-09 11:46:56,162 INFO EPOCH 82
+2021-02-09 11:46:56,162 INFO Learning rate: 0.001
+2021-02-09 11:47:12,775 INFO beginning validation
+2021-02-09 11:47:16,245 INFO Used Validation Accuracy is : 0.95285
+2021-02-09 11:47:16,246 INFO Used Average validation loss is: 0.13106378164887428
+2021-02-09 11:47:16,246 INFO finished validation
+2021-02-09 11:47:16,276 INFO EPOCH 83
+2021-02-09 11:47:16,276 INFO Learning rate: 0.001
+2021-02-09 11:47:30,781 INFO beginning validation
+2021-02-09 11:47:33,916 INFO Used Validation Accuracy is : 0.95255
+2021-02-09 11:47:33,916 INFO Used Average validation loss is: 0.13274449753165246
+2021-02-09 11:47:33,916 INFO finished validation
+2021-02-09 11:47:33,917 INFO EPOCH 84
+2021-02-09 11:47:33,917 INFO Learning rate: 0.001
+2021-02-09 11:47:50,185 INFO beginning validation
+2021-02-09 11:47:53,489 INFO Used Validation Accuracy is : 0.9535
+2021-02-09 11:47:53,490 INFO Used Average validation loss is: 0.12855078533291817
+2021-02-09 11:47:53,490 INFO finished validation
+2021-02-09 11:47:53,515 INFO EPOCH 85
+2021-02-09 11:47:53,515 INFO Learning rate: 0.001
+2021-02-09 11:48:09,393 INFO beginning validation
+2021-02-09 11:48:12,809 INFO Used Validation Accuracy is : 0.95155
+2021-02-09 11:48:12,809 INFO Used Average validation loss is: 0.13103976030945777
+2021-02-09 11:48:12,809 INFO finished validation
+2021-02-09 11:48:12,810 INFO EPOCH 86
+2021-02-09 11:48:12,810 INFO Learning rate: 0.001
+2021-02-09 11:48:28,024 INFO beginning validation
+2021-02-09 11:48:31,295 INFO Used Validation Accuracy is : 0.95285
+2021-02-09 11:48:31,295 INFO Used Average validation loss is: 0.13024744793772697
+2021-02-09 11:48:31,295 INFO finished validation
+2021-02-09 11:48:31,295 INFO EPOCH 87
+2021-02-09 11:48:31,296 INFO Learning rate: 0.001
+2021-02-09 11:48:48,748 INFO beginning validation
+2021-02-09 11:48:52,536 INFO Used Validation Accuracy is : 0.9526
+2021-02-09 11:48:52,536 INFO Used Average validation loss is: 0.128583297842741
+2021-02-09 11:48:52,536 INFO finished validation
+2021-02-09 11:48:52,536 INFO EPOCH 88
+2021-02-09 11:48:52,536 INFO Learning rate: 0.001
+2021-02-09 11:49:09,261 INFO beginning validation
+2021-02-09 11:49:12,489 INFO Used Validation Accuracy is : 0.95395
+2021-02-09 11:49:12,489 INFO Used Average validation loss is: 0.1284873502254486
+2021-02-09 11:49:12,490 INFO finished validation
+2021-02-09 11:49:12,518 INFO EPOCH 89
+2021-02-09 11:49:12,518 INFO Learning rate: 0.001
+2021-02-09 11:49:26,167 INFO beginning validation
+2021-02-09 11:49:29,378 INFO Used Validation Accuracy is : 0.9523
+2021-02-09 11:49:29,379 INFO Used Average validation loss is: 0.1326999969482422
+2021-02-09 11:49:29,379 INFO finished validation
+2021-02-09 11:49:29,380 INFO EPOCH 90
+2021-02-09 11:49:29,380 INFO Learning rate: 0.001
+2021-02-09 11:49:45,337 INFO beginning validation
+2021-02-09 11:49:48,622 INFO Used Validation Accuracy is : 0.9539
+2021-02-09 11:49:48,622 INFO Used Average validation loss is: 0.12956329174637796
+2021-02-09 11:49:48,623 INFO finished validation
+2021-02-09 11:49:48,623 INFO EPOCH 91
+2021-02-09 11:49:48,624 INFO Learning rate: 0.001
+2021-02-09 11:50:04,923 INFO beginning validation
+2021-02-09 11:50:08,070 INFO Used Validation Accuracy is : 0.95405
+2021-02-09 11:50:08,071 INFO Used Average validation loss is: 0.12681623690128327
+2021-02-09 11:50:08,071 INFO finished validation
+2021-02-09 11:50:08,089 INFO EPOCH 92
+2021-02-09 11:50:08,089 INFO Learning rate: 0.001
+2021-02-09 11:50:21,814 INFO beginning validation
+2021-02-09 11:50:24,991 INFO Used Validation Accuracy is : 0.95245
+2021-02-09 11:50:24,992 INFO Used Average validation loss is: 0.13055849588513374
+2021-02-09 11:50:24,992 INFO finished validation
+2021-02-09 11:50:24,993 INFO EPOCH 93
+2021-02-09 11:50:24,993 INFO Learning rate: 0.001
+2021-02-09 11:50:41,517 INFO beginning validation
+2021-02-09 11:50:44,877 INFO Used Validation Accuracy is : 0.95475
+2021-02-09 11:50:44,877 INFO Used Average validation loss is: 0.12572362310290336
+2021-02-09 11:50:44,877 INFO finished validation
+2021-02-09 11:50:44,896 INFO EPOCH 94
+2021-02-09 11:50:44,896 INFO Learning rate: 0.001
+2021-02-09 11:51:01,833 INFO beginning validation
+2021-02-09 11:51:05,166 INFO Used Validation Accuracy is : 0.95465
+2021-02-09 11:51:05,166 INFO Used Average validation loss is: 0.12858407459855078
+2021-02-09 11:51:05,166 INFO finished validation
+2021-02-09 11:51:05,167 INFO EPOCH 95
+2021-02-09 11:51:05,167 INFO Learning rate: 0.001
+2021-02-09 11:51:19,911 INFO beginning validation
+2021-02-09 11:51:23,321 INFO Used Validation Accuracy is : 0.95455
+2021-02-09 11:51:23,321 INFO Used Average validation loss is: 0.12638812108039857
+2021-02-09 11:51:23,321 INFO finished validation
+2021-02-09 11:51:23,322 INFO EPOCH 96
+2021-02-09 11:51:23,322 INFO Learning rate: 0.001
+2021-02-09 11:51:34,582 INFO beginning validation
+2021-02-09 11:51:38,157 INFO Used Validation Accuracy is : 0.955
+2021-02-09 11:51:38,157 INFO Used Average validation loss is: 0.12296093138456345
+2021-02-09 11:51:38,157 INFO finished validation
+2021-02-09 11:51:38,187 INFO EPOCH 97
+2021-02-09 11:51:38,187 INFO Learning rate: 0.001
+2021-02-09 11:51:55,452 INFO beginning validation
+2021-02-09 11:51:58,658 INFO Used Validation Accuracy is : 0.956
+2021-02-09 11:51:58,658 INFO Used Average validation loss is: 0.12211661241650582
+2021-02-09 11:51:58,658 INFO finished validation
+2021-02-09 11:51:58,670 INFO EPOCH 98
+2021-02-09 11:51:58,670 INFO Learning rate: 0.001
+2021-02-09 11:52:15,465 INFO beginning validation
+2021-02-09 11:52:18,682 INFO Used Validation Accuracy is : 0.9557
+2021-02-09 11:52:18,682 INFO Used Average validation loss is: 0.12184152225852013
+2021-02-09 11:52:18,682 INFO finished validation
+2021-02-09 11:52:18,683 INFO EPOCH 99
+2021-02-09 11:52:18,683 INFO Learning rate: 0.001
+2021-02-09 11:52:36,079 INFO beginning validation
+2021-02-09 11:52:39,444 INFO Used Validation Accuracy is : 0.9561
+2021-02-09 11:52:39,444 INFO Used Average validation loss is: 0.1241475858449936
+2021-02-09 11:52:39,444 INFO finished validation
+2021-02-09 11:52:39,473 INFO EPOCH 100
+2021-02-09 11:52:39,473 INFO Learning rate: 0.0001
+2021-02-09 11:52:55,832 INFO beginning validation
+2021-02-09 11:52:59,033 INFO Used Validation Accuracy is : 0.9567
+2021-02-09 11:52:59,033 INFO Used Average validation loss is: 0.12075690860748291
+2021-02-09 11:52:59,033 INFO finished validation
+2021-02-09 11:52:59,055 INFO EPOCH 101
+2021-02-09 11:52:59,056 INFO Learning rate: 0.0001
+2021-02-09 11:53:15,826 INFO beginning validation
+2021-02-09 11:53:19,188 INFO Used Validation Accuracy is : 0.9566
+2021-02-09 11:53:19,189 INFO Used Average validation loss is: 0.11804976660013199
+2021-02-09 11:53:19,189 INFO finished validation
+2021-02-09 11:53:19,190 INFO EPOCH 102
+2021-02-09 11:53:19,190 INFO Learning rate: 0.0001
+2021-02-09 11:53:36,501 INFO beginning validation
+2021-02-09 11:53:39,810 INFO Used Validation Accuracy is : 0.9584
+2021-02-09 11:53:39,811 INFO Used Average validation loss is: 0.116081570905447
+2021-02-09 11:53:39,811 INFO finished validation
+2021-02-09 11:53:39,907 INFO EPOCH 103
+2021-02-09 11:53:39,907 INFO Learning rate: 0.0001
+2021-02-09 11:53:56,226 INFO beginning validation
+2021-02-09 11:53:59,477 INFO Used Validation Accuracy is : 0.95695
+2021-02-09 11:53:59,477 INFO Used Average validation loss is: 0.11824806361794472
+2021-02-09 11:53:59,478 INFO finished validation
+2021-02-09 11:53:59,478 INFO EPOCH 104
+2021-02-09 11:53:59,478 INFO Learning rate: 0.0001
+2021-02-09 11:54:16,191 INFO beginning validation
+2021-02-09 11:54:19,551 INFO Used Validation Accuracy is : 0.95895
+2021-02-09 11:54:19,552 INFO Used Average validation loss is: 0.11490303822159767
+2021-02-09 11:54:19,552 INFO finished validation
+2021-02-09 11:54:19,579 INFO EPOCH 105
+2021-02-09 11:54:19,579 INFO Learning rate: 0.0001
+2021-02-09 11:54:36,388 INFO beginning validation
+2021-02-09 11:54:39,618 INFO Used Validation Accuracy is : 0.95725
+2021-02-09 11:54:39,618 INFO Used Average validation loss is: 0.11794631057977677
+2021-02-09 11:54:39,618 INFO finished validation
+2021-02-09 11:54:39,619 INFO EPOCH 106
+2021-02-09 11:54:39,619 INFO Learning rate: 0.0001
+2021-02-09 11:54:51,313 INFO beginning validation
+2021-02-09 11:54:54,646 INFO Used Validation Accuracy is : 0.9562
+2021-02-09 11:54:54,646 INFO Used Average validation loss is: 0.11908737670183182
+2021-02-09 11:54:54,647 INFO finished validation
+2021-02-09 11:54:54,647 INFO EPOCH 107
+2021-02-09 11:54:54,647 INFO Learning rate: 0.0001
+2021-02-09 11:55:11,827 INFO beginning validation
+2021-02-09 11:55:14,949 INFO Used Validation Accuracy is : 0.9578
+2021-02-09 11:55:14,949 INFO Used Average validation loss is: 0.11609026901721954
+2021-02-09 11:55:14,949 INFO finished validation
+2021-02-09 11:55:14,950 INFO EPOCH 108
+2021-02-09 11:55:14,950 INFO Learning rate: 0.0001
+2021-02-09 11:55:31,896 INFO beginning validation
+2021-02-09 11:55:35,191 INFO Used Validation Accuracy is : 0.95655
+2021-02-09 11:55:35,191 INFO Used Average validation loss is: 0.12011363646388054
+2021-02-09 11:55:35,191 INFO finished validation
+2021-02-09 11:55:35,192 INFO EPOCH 109
+2021-02-09 11:55:35,192 INFO Learning rate: 0.0001
+2021-02-09 11:55:51,359 INFO beginning validation
+2021-02-09 11:55:54,656 INFO Used Validation Accuracy is : 0.9571
+2021-02-09 11:55:54,656 INFO Used Average validation loss is: 0.11722401685714721
+2021-02-09 11:55:54,656 INFO finished validation
+2021-02-09 11:55:54,656 INFO EPOCH 110
+2021-02-09 11:55:54,656 INFO Learning rate: 0.0001
+2021-02-09 11:56:10,480 INFO beginning validation
+2021-02-09 11:56:13,690 INFO Used Validation Accuracy is : 0.95745
+2021-02-09 11:56:13,691 INFO Used Average validation loss is: 0.11689610014557839
+2021-02-09 11:56:13,691 INFO finished validation
+2021-02-09 11:56:13,692 INFO EPOCH 111
+2021-02-09 11:56:13,692 INFO Learning rate: 0.0001
+2021-02-09 11:56:29,904 INFO beginning validation
+2021-02-09 11:56:33,037 INFO Used Validation Accuracy is : 0.9588
+2021-02-09 11:56:33,037 INFO Used Average validation loss is: 0.11423312760591507
+2021-02-09 11:56:33,038 INFO finished validation
+2021-02-09 11:56:33,038 INFO EPOCH 112
+2021-02-09 11:56:33,038 INFO Learning rate: 0.0001
+2021-02-09 11:56:49,503 INFO beginning validation
+2021-02-09 11:56:52,770 INFO Used Validation Accuracy is : 0.9572
+2021-02-09 11:56:52,771 INFO Used Average validation loss is: 0.11562833073735237
+2021-02-09 11:56:52,771 INFO finished validation
+2021-02-09 11:56:52,772 INFO EPOCH 113
+2021-02-09 11:56:52,772 INFO Learning rate: 0.0001
+2021-02-09 11:57:09,028 INFO beginning validation
+2021-02-09 11:57:12,321 INFO Used Validation Accuracy is : 0.95845
+2021-02-09 11:57:12,321 INFO Used Average validation loss is: 0.11369837815165519
+2021-02-09 11:57:12,321 INFO finished validation
+2021-02-09 11:57:12,322 INFO EPOCH 114
+2021-02-09 11:57:12,322 INFO Learning rate: 0.0001
+2021-02-09 11:57:27,494 INFO beginning validation
+2021-02-09 11:57:30,653 INFO Used Validation Accuracy is : 0.9586
+2021-02-09 11:57:30,653 INFO Used Average validation loss is: 0.11468097205162048
+2021-02-09 11:57:30,653 INFO finished validation
+2021-02-09 11:57:30,654 INFO EPOCH 115
+2021-02-09 11:57:30,654 INFO Learning rate: 0.0001
+2021-02-09 11:57:40,623 INFO beginning validation
+2021-02-09 11:57:43,783 INFO Used Validation Accuracy is : 0.95725
+2021-02-09 11:57:43,784 INFO Used Average validation loss is: 0.11658530955314636
+2021-02-09 11:57:43,784 INFO finished validation
+2021-02-09 11:57:43,785 INFO EPOCH 116
+2021-02-09 11:57:43,785 INFO Learning rate: 0.0001
+2021-02-09 11:57:59,787 INFO beginning validation
+2021-02-09 11:58:03,082 INFO Used Validation Accuracy is : 0.9586
+2021-02-09 11:58:03,082 INFO Used Average validation loss is: 0.11366460334658622
+2021-02-09 11:58:03,082 INFO finished validation
+2021-02-09 11:58:03,082 INFO EPOCH 117
+2021-02-09 11:58:03,082 INFO Learning rate: 0.0001
+2021-02-09 11:58:20,211 INFO beginning validation
+2021-02-09 11:58:23,709 INFO Used Validation Accuracy is : 0.9581
+2021-02-09 11:58:23,710 INFO Used Average validation loss is: 0.11635463183522224
+2021-02-09 11:58:23,710 INFO finished validation
+2021-02-09 11:58:23,711 INFO EPOCH 118
+2021-02-09 11:58:23,711 INFO Learning rate: 0.0001
+2021-02-09 11:58:39,949 INFO beginning validation
+2021-02-09 11:58:43,322 INFO Used Validation Accuracy is : 0.9583
+2021-02-09 11:58:43,323 INFO Used Average validation loss is: 0.11552735890746117
+2021-02-09 11:58:43,323 INFO finished validation
+2021-02-09 11:58:43,324 INFO EPOCH 119
+2021-02-09 11:58:43,324 INFO Learning rate: 0.0001
+2021-02-09 11:58:57,826 INFO beginning validation
+2021-02-09 11:59:01,066 INFO Used Validation Accuracy is : 0.95905
+2021-02-09 11:59:01,067 INFO Used Average validation loss is: 0.11342859905362129
+2021-02-09 11:59:01,067 INFO finished validation
+2021-02-09 11:59:01,127 INFO EPOCH 120
+2021-02-09 11:59:01,127 INFO Learning rate: 0.0001
+2021-02-09 11:59:18,668 INFO beginning validation
+2021-02-09 11:59:21,989 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 11:59:21,990 INFO Used Average validation loss is: 0.11324513131976127
+2021-02-09 11:59:21,990 INFO finished validation
+2021-02-09 11:59:22,011 INFO EPOCH 121
+2021-02-09 11:59:22,011 INFO Learning rate: 0.0001
+2021-02-09 11:59:38,818 INFO beginning validation
+2021-02-09 11:59:42,051 INFO Used Validation Accuracy is : 0.9569
+2021-02-09 11:59:42,051 INFO Used Average validation loss is: 0.11830139971375465
+2021-02-09 11:59:42,051 INFO finished validation
+2021-02-09 11:59:42,052 INFO EPOCH 122
+2021-02-09 11:59:42,052 INFO Learning rate: 0.0001
+2021-02-09 11:59:54,007 INFO beginning validation
+2021-02-09 11:59:57,103 INFO Used Validation Accuracy is : 0.95855
+2021-02-09 11:59:57,104 INFO Used Average validation loss is: 0.114540488666296
+2021-02-09 11:59:57,104 INFO finished validation
+2021-02-09 11:59:57,105 INFO EPOCH 123
+2021-02-09 11:59:57,105 INFO Learning rate: 0.0001
+2021-02-09 12:00:14,339 INFO beginning validation
+2021-02-09 12:00:17,662 INFO Used Validation Accuracy is : 0.95795
+2021-02-09 12:00:17,662 INFO Used Average validation loss is: 0.11705415583252907
+2021-02-09 12:00:17,662 INFO finished validation
+2021-02-09 12:00:17,663 INFO EPOCH 124
+2021-02-09 12:00:17,663 INFO Learning rate: 0.0001
+2021-02-09 12:00:33,167 INFO beginning validation
+2021-02-09 12:00:36,419 INFO Used Validation Accuracy is : 0.9578
+2021-02-09 12:00:36,420 INFO Used Average validation loss is: 0.1150388863682747
+2021-02-09 12:00:36,420 INFO finished validation
+2021-02-09 12:00:36,420 INFO EPOCH 125
+2021-02-09 12:00:36,420 INFO Learning rate: 0.0001
+2021-02-09 12:00:52,816 INFO beginning validation
+2021-02-09 12:00:56,205 INFO Used Validation Accuracy is : 0.95855
+2021-02-09 12:00:56,205 INFO Used Average validation loss is: 0.1136407463490963
+2021-02-09 12:00:56,205 INFO finished validation
+2021-02-09 12:00:56,206 INFO EPOCH 126
+2021-02-09 12:00:56,206 INFO Learning rate: 0.0001
+2021-02-09 12:01:10,850 INFO beginning validation
+2021-02-09 12:01:14,420 INFO Used Validation Accuracy is : 0.9593
+2021-02-09 12:01:14,420 INFO Used Average validation loss is: 0.11288908330798149
+2021-02-09 12:01:14,420 INFO finished validation
+2021-02-09 12:01:14,421 INFO EPOCH 127
+2021-02-09 12:01:14,421 INFO Learning rate: 0.0001
+2021-02-09 12:01:31,067 INFO beginning validation
+2021-02-09 12:01:34,474 INFO Used Validation Accuracy is : 0.9593
+2021-02-09 12:01:34,474 INFO Used Average validation loss is: 0.11279312936663628
+2021-02-09 12:01:34,474 INFO finished validation
+2021-02-09 12:01:34,474 INFO EPOCH 128
+2021-02-09 12:01:34,475 INFO Learning rate: 0.0001
+2021-02-09 12:01:51,680 INFO beginning validation
+2021-02-09 12:01:54,906 INFO Used Validation Accuracy is : 0.9581
+2021-02-09 12:01:54,906 INFO Used Average validation loss is: 0.11530393565297127
+2021-02-09 12:01:54,906 INFO finished validation
+2021-02-09 12:01:54,907 INFO EPOCH 129
+2021-02-09 12:01:54,907 INFO Learning rate: 0.0001
+2021-02-09 12:02:07,492 INFO beginning validation
+2021-02-09 12:02:10,727 INFO Used Validation Accuracy is : 0.959
+2021-02-09 12:02:10,727 INFO Used Average validation loss is: 0.11286545621156692
+2021-02-09 12:02:10,727 INFO finished validation
+2021-02-09 12:02:10,728 INFO EPOCH 130
+2021-02-09 12:02:10,728 INFO Learning rate: 0.0001
+2021-02-09 12:02:27,401 INFO beginning validation
+2021-02-09 12:02:30,632 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:02:30,632 INFO Used Average validation loss is: 0.11118329104185104
+2021-02-09 12:02:30,632 INFO finished validation
+2021-02-09 12:02:30,662 INFO EPOCH 131
+2021-02-09 12:02:30,662 INFO Learning rate: 0.0001
+2021-02-09 12:02:47,680 INFO beginning validation
+2021-02-09 12:02:50,857 INFO Used Validation Accuracy is : 0.96
+2021-02-09 12:02:50,857 INFO Used Average validation loss is: 0.1128798471212387
+2021-02-09 12:02:50,857 INFO finished validation
+2021-02-09 12:02:50,858 INFO EPOCH 132
+2021-02-09 12:02:50,858 INFO Learning rate: 0.0001
+2021-02-09 12:03:07,126 INFO beginning validation
+2021-02-09 12:03:10,316 INFO Used Validation Accuracy is : 0.95985
+2021-02-09 12:03:10,316 INFO Used Average validation loss is: 0.11220333070755005
+2021-02-09 12:03:10,316 INFO finished validation
+2021-02-09 12:03:10,317 INFO EPOCH 133
+2021-02-09 12:03:10,317 INFO Learning rate: 0.0001
+2021-02-09 12:03:26,622 INFO beginning validation
+2021-02-09 12:03:29,881 INFO Used Validation Accuracy is : 0.96005
+2021-02-09 12:03:29,881 INFO Used Average validation loss is: 0.11192382432818412
+2021-02-09 12:03:29,881 INFO finished validation
+2021-02-09 12:03:29,882 INFO EPOCH 134
+2021-02-09 12:03:29,882 INFO Learning rate: 0.0001
+2021-02-09 12:03:46,202 INFO beginning validation
+2021-02-09 12:03:49,531 INFO Used Validation Accuracy is : 0.9589
+2021-02-09 12:03:49,531 INFO Used Average validation loss is: 0.11425886446237564
+2021-02-09 12:03:49,532 INFO finished validation
+2021-02-09 12:03:49,533 INFO EPOCH 135
+2021-02-09 12:03:49,533 INFO Learning rate: 0.0001
+2021-02-09 12:04:05,203 INFO beginning validation
+2021-02-09 12:04:08,455 INFO Used Validation Accuracy is : 0.9587
+2021-02-09 12:04:08,456 INFO Used Average validation loss is: 0.11425962300896644
+2021-02-09 12:04:08,456 INFO finished validation
+2021-02-09 12:04:08,456 INFO EPOCH 136
+2021-02-09 12:04:08,457 INFO Learning rate: 0.0001
+2021-02-09 12:04:24,865 INFO beginning validation
+2021-02-09 12:04:28,425 INFO Used Validation Accuracy is : 0.96025
+2021-02-09 12:04:28,425 INFO Used Average validation loss is: 0.11151095287203788
+2021-02-09 12:04:28,425 INFO finished validation
+2021-02-09 12:04:28,426 INFO EPOCH 137
+2021-02-09 12:04:28,426 INFO Learning rate: 0.0001
+2021-02-09 12:04:45,256 INFO beginning validation
+2021-02-09 12:04:48,470 INFO Used Validation Accuracy is : 0.95905
+2021-02-09 12:04:48,470 INFO Used Average validation loss is: 0.11272718517780304
+2021-02-09 12:04:48,470 INFO finished validation
+2021-02-09 12:04:48,471 INFO EPOCH 138
+2021-02-09 12:04:48,471 INFO Learning rate: 0.0001
+2021-02-09 12:05:05,628 INFO beginning validation
+2021-02-09 12:05:08,938 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 12:05:08,938 INFO Used Average validation loss is: 0.11291017852425575
+2021-02-09 12:05:08,938 INFO finished validation
+2021-02-09 12:05:08,939 INFO EPOCH 139
+2021-02-09 12:05:08,939 INFO Learning rate: 0.0001
+2021-02-09 12:05:24,432 INFO beginning validation
+2021-02-09 12:05:27,654 INFO Used Validation Accuracy is : 0.95805
+2021-02-09 12:05:27,654 INFO Used Average validation loss is: 0.11615918169617653
+2021-02-09 12:05:27,654 INFO finished validation
+2021-02-09 12:05:27,655 INFO EPOCH 140
+2021-02-09 12:05:27,655 INFO Learning rate: 0.0001
+2021-02-09 12:05:44,401 INFO beginning validation
+2021-02-09 12:05:47,735 INFO Used Validation Accuracy is : 0.9596
+2021-02-09 12:05:47,735 INFO Used Average validation loss is: 0.11254563651084899
+2021-02-09 12:05:47,735 INFO finished validation
+2021-02-09 12:05:47,736 INFO EPOCH 141
+2021-02-09 12:05:47,736 INFO Learning rate: 0.0001
+2021-02-09 12:06:04,912 INFO beginning validation
+2021-02-09 12:06:08,096 INFO Used Validation Accuracy is : 0.9604
+2021-02-09 12:06:08,097 INFO Used Average validation loss is: 0.11218509956598281
+2021-02-09 12:06:08,097 INFO finished validation
+2021-02-09 12:06:08,098 INFO EPOCH 142
+2021-02-09 12:06:08,098 INFO Learning rate: 0.0001
+2021-02-09 12:06:24,415 INFO beginning validation
+2021-02-09 12:06:27,691 INFO Used Validation Accuracy is : 0.9575
+2021-02-09 12:06:27,691 INFO Used Average validation loss is: 0.11603220462203026
+2021-02-09 12:06:27,692 INFO finished validation
+2021-02-09 12:06:27,692 INFO EPOCH 143
+2021-02-09 12:06:27,692 INFO Learning rate: 0.0001
+2021-02-09 12:06:43,765 INFO beginning validation
+2021-02-09 12:06:47,344 INFO Used Validation Accuracy is : 0.95955
+2021-02-09 12:06:47,345 INFO Used Average validation loss is: 0.11322033326625824
+2021-02-09 12:06:47,345 INFO finished validation
+2021-02-09 12:06:47,346 INFO EPOCH 144
+2021-02-09 12:06:47,346 INFO Learning rate: 0.0001
+2021-02-09 12:07:03,495 INFO beginning validation
+2021-02-09 12:07:06,836 INFO Used Validation Accuracy is : 0.9605
+2021-02-09 12:07:06,836 INFO Used Average validation loss is: 0.11108035882115364
+2021-02-09 12:07:06,836 INFO finished validation
+2021-02-09 12:07:06,837 INFO EPOCH 145
+2021-02-09 12:07:06,837 INFO Learning rate: 0.0001
+2021-02-09 12:07:23,667 INFO beginning validation
+2021-02-09 12:07:26,829 INFO Used Validation Accuracy is : 0.95935
+2021-02-09 12:07:26,830 INFO Used Average validation loss is: 0.11190497116446495
+2021-02-09 12:07:26,830 INFO finished validation
+2021-02-09 12:07:26,831 INFO EPOCH 146
+2021-02-09 12:07:26,831 INFO Learning rate: 0.0001
+2021-02-09 12:07:43,583 INFO beginning validation
+2021-02-09 12:07:46,708 INFO Used Validation Accuracy is : 0.9602
+2021-02-09 12:07:46,709 INFO Used Average validation loss is: 0.11180643565058708
+2021-02-09 12:07:46,709 INFO finished validation
+2021-02-09 12:07:46,709 INFO EPOCH 147
+2021-02-09 12:07:46,709 INFO Learning rate: 0.0001
+2021-02-09 12:08:03,143 INFO beginning validation
+2021-02-09 12:08:06,331 INFO Used Validation Accuracy is : 0.95915
+2021-02-09 12:08:06,331 INFO Used Average validation loss is: 0.11154617179632187
+2021-02-09 12:08:06,331 INFO finished validation
+2021-02-09 12:08:06,332 INFO EPOCH 148
+2021-02-09 12:08:06,332 INFO Learning rate: 0.0001
+2021-02-09 12:08:20,801 INFO beginning validation
+2021-02-09 12:08:24,114 INFO Used Validation Accuracy is : 0.9596
+2021-02-09 12:08:24,115 INFO Used Average validation loss is: 0.11172764967679977
+2021-02-09 12:08:24,115 INFO finished validation
+2021-02-09 12:08:24,115 INFO EPOCH 149
+2021-02-09 12:08:24,116 INFO Learning rate: 0.0001
+2021-02-09 12:08:38,698 INFO beginning validation
+2021-02-09 12:08:42,127 INFO Used Validation Accuracy is : 0.95965
+2021-02-09 12:08:42,127 INFO Used Average validation loss is: 0.11152295537590981
+2021-02-09 12:08:42,127 INFO finished validation
+2021-02-09 12:08:42,128 INFO EPOCH 150
+2021-02-09 12:08:42,128 INFO Learning rate: 1e-05
+2021-02-09 12:08:56,027 INFO beginning validation
+2021-02-09 12:08:59,448 INFO Used Validation Accuracy is : 0.9584
+2021-02-09 12:08:59,448 INFO Used Average validation loss is: 0.11360153113603592
+2021-02-09 12:08:59,448 INFO finished validation
+2021-02-09 12:08:59,448 INFO EPOCH 151
+2021-02-09 12:08:59,448 INFO Learning rate: 1e-05
+2021-02-09 12:09:15,937 INFO beginning validation
+2021-02-09 12:09:19,208 INFO Used Validation Accuracy is : 0.9586
+2021-02-09 12:09:19,208 INFO Used Average validation loss is: 0.11493824518918991
+2021-02-09 12:09:19,208 INFO finished validation
+2021-02-09 12:09:19,209 INFO EPOCH 152
+2021-02-09 12:09:19,209 INFO Learning rate: 1e-05
+2021-02-09 12:09:34,467 INFO beginning validation
+2021-02-09 12:09:37,575 INFO Used Validation Accuracy is : 0.9593
+2021-02-09 12:09:37,575 INFO Used Average validation loss is: 0.11326576660275459
+2021-02-09 12:09:37,576 INFO finished validation
+2021-02-09 12:09:37,577 INFO EPOCH 153
+2021-02-09 12:09:37,577 INFO Learning rate: 1e-05
+2021-02-09 12:09:53,361 INFO beginning validation
+2021-02-09 12:09:56,630 INFO Used Validation Accuracy is : 0.96015
+2021-02-09 12:09:56,630 INFO Used Average validation loss is: 0.11193058471679687
+2021-02-09 12:09:56,630 INFO finished validation
+2021-02-09 12:09:56,631 INFO EPOCH 154
+2021-02-09 12:09:56,631 INFO Learning rate: 1e-05
+2021-02-09 12:10:11,135 INFO beginning validation
+2021-02-09 12:10:14,264 INFO Used Validation Accuracy is : 0.95965
+2021-02-09 12:10:14,264 INFO Used Average validation loss is: 0.1118235744535923
+2021-02-09 12:10:14,264 INFO finished validation
+2021-02-09 12:10:14,265 INFO EPOCH 155
+2021-02-09 12:10:14,265 INFO Learning rate: 1e-05
+2021-02-09 12:10:31,478 INFO beginning validation
+2021-02-09 12:10:34,646 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 12:10:34,646 INFO Used Average validation loss is: 0.11346321170330048
+2021-02-09 12:10:34,646 INFO finished validation
+2021-02-09 12:10:34,647 INFO EPOCH 156
+2021-02-09 12:10:34,647 INFO Learning rate: 1e-05
+2021-02-09 12:10:51,091 INFO beginning validation
+2021-02-09 12:10:54,331 INFO Used Validation Accuracy is : 0.95895
+2021-02-09 12:10:54,332 INFO Used Average validation loss is: 0.11309394711256027
+2021-02-09 12:10:54,332 INFO finished validation
+2021-02-09 12:10:54,333 INFO EPOCH 157
+2021-02-09 12:10:54,333 INFO Learning rate: 1e-05
+2021-02-09 12:11:10,718 INFO beginning validation
+2021-02-09 12:11:13,936 INFO Used Validation Accuracy is : 0.95975
+2021-02-09 12:11:13,936 INFO Used Average validation loss is: 0.11192015225291252
+2021-02-09 12:11:13,936 INFO finished validation
+2021-02-09 12:11:13,936 INFO EPOCH 158
+2021-02-09 12:11:13,936 INFO Learning rate: 1e-05
+2021-02-09 12:11:31,266 INFO beginning validation
+2021-02-09 12:11:34,493 INFO Used Validation Accuracy is : 0.96035
+2021-02-09 12:11:34,493 INFO Used Average validation loss is: 0.11113425073027611
+2021-02-09 12:11:34,493 INFO finished validation
+2021-02-09 12:11:34,493 INFO EPOCH 159
+2021-02-09 12:11:34,493 INFO Learning rate: 1e-05
+2021-02-09 12:11:51,241 INFO beginning validation
+2021-02-09 12:11:54,517 INFO Used Validation Accuracy is : 0.95995
+2021-02-09 12:11:54,517 INFO Used Average validation loss is: 0.11151878434419632
+2021-02-09 12:11:54,517 INFO finished validation
+2021-02-09 12:11:54,518 INFO EPOCH 160
+2021-02-09 12:11:54,518 INFO Learning rate: 1e-05
+2021-02-09 12:12:09,575 INFO beginning validation
+2021-02-09 12:12:12,800 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 12:12:12,801 INFO Used Average validation loss is: 0.11422612125873566
+2021-02-09 12:12:12,801 INFO finished validation
+2021-02-09 12:12:12,802 INFO EPOCH 161
+2021-02-09 12:12:12,802 INFO Learning rate: 1e-05
+2021-02-09 12:12:28,130 INFO beginning validation
+2021-02-09 12:12:31,338 INFO Used Validation Accuracy is : 0.95945
+2021-02-09 12:12:31,338 INFO Used Average validation loss is: 0.11242072268724441
+2021-02-09 12:12:31,338 INFO finished validation
+2021-02-09 12:12:31,339 INFO EPOCH 162
+2021-02-09 12:12:31,339 INFO Learning rate: 1e-05
+2021-02-09 12:12:48,006 INFO beginning validation
+2021-02-09 12:12:51,248 INFO Used Validation Accuracy is : 0.96
+2021-02-09 12:12:51,248 INFO Used Average validation loss is: 0.11281167597770692
+2021-02-09 12:12:51,248 INFO finished validation
+2021-02-09 12:12:51,249 INFO EPOCH 163
+2021-02-09 12:12:51,249 INFO Learning rate: 1e-05
+2021-02-09 12:13:06,310 INFO beginning validation
+2021-02-09 12:13:09,491 INFO Used Validation Accuracy is : 0.9604
+2021-02-09 12:13:09,491 INFO Used Average validation loss is: 0.11111742339730263
+2021-02-09 12:13:09,491 INFO finished validation
+2021-02-09 12:13:09,491 INFO EPOCH 164
+2021-02-09 12:13:09,491 INFO Learning rate: 1e-05
+2021-02-09 12:13:25,632 INFO beginning validation
+2021-02-09 12:13:29,210 INFO Used Validation Accuracy is : 0.9597
+2021-02-09 12:13:29,210 INFO Used Average validation loss is: 0.11219902607798576
+2021-02-09 12:13:29,210 INFO finished validation
+2021-02-09 12:13:29,211 INFO EPOCH 165
+2021-02-09 12:13:29,211 INFO Learning rate: 1e-05
+2021-02-09 12:13:45,485 INFO beginning validation
+2021-02-09 12:13:48,681 INFO Used Validation Accuracy is : 0.9592
+2021-02-09 12:13:48,681 INFO Used Average validation loss is: 0.11272064366936684
+2021-02-09 12:13:48,681 INFO finished validation
+2021-02-09 12:13:48,682 INFO EPOCH 166
+2021-02-09 12:13:48,682 INFO Learning rate: 1e-05
+2021-02-09 12:14:05,788 INFO beginning validation
+2021-02-09 12:14:09,031 INFO Used Validation Accuracy is : 0.96055
+2021-02-09 12:14:09,031 INFO Used Average validation loss is: 0.11060349743962287
+2021-02-09 12:14:09,031 INFO finished validation
+2021-02-09 12:14:09,031 INFO EPOCH 167
+2021-02-09 12:14:09,031 INFO Learning rate: 1e-05
+2021-02-09 12:14:24,426 INFO beginning validation
+2021-02-09 12:14:27,623 INFO Used Validation Accuracy is : 0.96015
+2021-02-09 12:14:27,623 INFO Used Average validation loss is: 0.1111289429783821
+2021-02-09 12:14:27,623 INFO finished validation
+2021-02-09 12:14:27,624 INFO EPOCH 168
+2021-02-09 12:14:27,624 INFO Learning rate: 1e-05
+2021-02-09 12:14:42,017 INFO beginning validation
+2021-02-09 12:14:45,203 INFO Used Validation Accuracy is : 0.9603
+2021-02-09 12:14:45,203 INFO Used Average validation loss is: 0.11111986139416695
+2021-02-09 12:14:45,203 INFO finished validation
+2021-02-09 12:14:45,204 INFO EPOCH 169
+2021-02-09 12:14:45,204 INFO Learning rate: 1e-05
+2021-02-09 12:15:00,083 INFO beginning validation
+2021-02-09 12:15:03,370 INFO Used Validation Accuracy is : 0.9601
+2021-02-09 12:15:03,370 INFO Used Average validation loss is: 0.11134999620318413
+2021-02-09 12:15:03,370 INFO finished validation
+2021-02-09 12:15:03,371 INFO EPOCH 170
+2021-02-09 12:15:03,371 INFO Learning rate: 1e-05
+2021-02-09 12:15:19,422 INFO beginning validation
+2021-02-09 12:15:22,607 INFO Used Validation Accuracy is : 0.96035
+2021-02-09 12:15:22,607 INFO Used Average validation loss is: 0.11058782280087472
+2021-02-09 12:15:22,607 INFO finished validation
+2021-02-09 12:15:22,607 INFO EPOCH 171
+2021-02-09 12:15:22,607 INFO Learning rate: 1e-05
+2021-02-09 12:15:39,424 INFO beginning validation
+2021-02-09 12:15:42,694 INFO Used Validation Accuracy is : 0.9592
+2021-02-09 12:15:42,694 INFO Used Average validation loss is: 0.11382401587963105
+2021-02-09 12:15:42,694 INFO finished validation
+2021-02-09 12:15:42,695 INFO EPOCH 172
+2021-02-09 12:15:42,695 INFO Learning rate: 1e-05
+2021-02-09 12:15:58,191 INFO beginning validation
+2021-02-09 12:16:01,444 INFO Used Validation Accuracy is : 0.9602
+2021-02-09 12:16:01,444 INFO Used Average validation loss is: 0.11149934654831886
+2021-02-09 12:16:01,444 INFO finished validation
+2021-02-09 12:16:01,445 INFO EPOCH 173
+2021-02-09 12:16:01,445 INFO Learning rate: 1e-05
+2021-02-09 12:16:17,386 INFO beginning validation
+2021-02-09 12:16:20,641 INFO Used Validation Accuracy is : 0.9601
+2021-02-09 12:16:20,641 INFO Used Average validation loss is: 0.1116727211713791
+2021-02-09 12:16:20,641 INFO finished validation
+2021-02-09 12:16:20,642 INFO EPOCH 174
+2021-02-09 12:16:20,642 INFO Learning rate: 1e-05
+2021-02-09 12:16:36,248 INFO beginning validation
+2021-02-09 12:16:39,550 INFO Used Validation Accuracy is : 0.95945
+2021-02-09 12:16:39,550 INFO Used Average validation loss is: 0.11165976647138595
+2021-02-09 12:16:39,550 INFO finished validation
+2021-02-09 12:16:39,551 INFO EPOCH 175
+2021-02-09 12:16:39,551 INFO Learning rate: 1e-05
+2021-02-09 12:16:56,152 INFO beginning validation
+2021-02-09 12:16:59,432 INFO Used Validation Accuracy is : 0.9595
+2021-02-09 12:16:59,432 INFO Used Average validation loss is: 0.11148444159030914
+2021-02-09 12:16:59,432 INFO finished validation
+2021-02-09 12:16:59,433 INFO EPOCH 176
+2021-02-09 12:16:59,434 INFO Learning rate: 1e-05
+2021-02-09 12:17:14,419 INFO beginning validation
+2021-02-09 12:17:17,869 INFO Used Validation Accuracy is : 0.96055
+2021-02-09 12:17:17,870 INFO Used Average validation loss is: 0.11139210622906685
+2021-02-09 12:17:17,870 INFO finished validation
+2021-02-09 12:17:17,870 INFO EPOCH 177
+2021-02-09 12:17:17,870 INFO Learning rate: 1e-05
+2021-02-09 12:17:33,120 INFO beginning validation
+2021-02-09 12:17:36,388 INFO Used Validation Accuracy is : 0.96065
+2021-02-09 12:17:36,389 INFO Used Average validation loss is: 0.11037081521749496
+2021-02-09 12:17:36,389 INFO finished validation
+2021-02-09 12:17:36,408 INFO EPOCH 178
+2021-02-09 12:17:36,409 INFO Learning rate: 1e-05
+2021-02-09 12:17:51,321 INFO beginning validation
+2021-02-09 12:17:54,821 INFO Used Validation Accuracy is : 0.9597
+2021-02-09 12:17:54,822 INFO Used Average validation loss is: 0.11239623119831085
+2021-02-09 12:17:54,822 INFO finished validation
+2021-02-09 12:17:54,822 INFO EPOCH 179
+2021-02-09 12:17:54,822 INFO Learning rate: 1e-05
+2021-02-09 12:18:10,765 INFO beginning validation
+2021-02-09 12:18:13,949 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:18:13,949 INFO Used Average validation loss is: 0.11072223538160324
+2021-02-09 12:18:13,949 INFO finished validation
+2021-02-09 12:18:13,949 INFO EPOCH 180
+2021-02-09 12:18:13,949 INFO Learning rate: 1e-05
+2021-02-09 12:18:30,827 INFO beginning validation
+2021-02-09 12:18:34,036 INFO Used Validation Accuracy is : 0.9607
+2021-02-09 12:18:34,036 INFO Used Average validation loss is: 0.11029310978651047
+2021-02-09 12:18:34,036 INFO finished validation
+2021-02-09 12:18:34,064 INFO EPOCH 181
+2021-02-09 12:18:34,065 INFO Learning rate: 1e-05
+2021-02-09 12:18:51,026 INFO beginning validation
+2021-02-09 12:18:54,255 INFO Used Validation Accuracy is : 0.9596
+2021-02-09 12:18:54,255 INFO Used Average validation loss is: 0.11202181401252746
+2021-02-09 12:18:54,255 INFO finished validation
+2021-02-09 12:18:54,256 INFO EPOCH 182
+2021-02-09 12:18:54,256 INFO Learning rate: 1e-05
+2021-02-09 12:19:09,371 INFO beginning validation
+2021-02-09 12:19:12,517 INFO Used Validation Accuracy is : 0.96125
+2021-02-09 12:19:12,517 INFO Used Average validation loss is: 0.10993959497213364
+2021-02-09 12:19:12,517 INFO finished validation
+2021-02-09 12:19:12,547 INFO EPOCH 183
+2021-02-09 12:19:12,547 INFO Learning rate: 1e-05
+2021-02-09 12:19:25,112 INFO beginning validation
+2021-02-09 12:19:28,347 INFO Used Validation Accuracy is : 0.96085
+2021-02-09 12:19:28,347 INFO Used Average validation loss is: 0.11027730270028115
+2021-02-09 12:19:28,347 INFO finished validation
+2021-02-09 12:19:28,348 INFO EPOCH 184
+2021-02-09 12:19:28,348 INFO Learning rate: 1e-05
+2021-02-09 12:19:45,742 INFO beginning validation
+2021-02-09 12:19:49,510 INFO Used Validation Accuracy is : 0.9608
+2021-02-09 12:19:49,510 INFO Used Average validation loss is: 0.11092659606933594
+2021-02-09 12:19:49,511 INFO finished validation
+2021-02-09 12:19:49,511 INFO EPOCH 185
+2021-02-09 12:19:49,511 INFO Learning rate: 1e-05
+2021-02-09 12:20:05,129 INFO beginning validation
+2021-02-09 12:20:08,436 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:20:08,437 INFO Used Average validation loss is: 0.11159238508343697
+2021-02-09 12:20:08,437 INFO finished validation
+2021-02-09 12:20:08,437 INFO EPOCH 186
+2021-02-09 12:20:08,438 INFO Learning rate: 1e-05
+2021-02-09 12:20:24,607 INFO beginning validation
+2021-02-09 12:20:28,128 INFO Used Validation Accuracy is : 0.9602
+2021-02-09 12:20:28,129 INFO Used Average validation loss is: 0.11212162836790085
+2021-02-09 12:20:28,129 INFO finished validation
+2021-02-09 12:20:28,129 INFO EPOCH 187
+2021-02-09 12:20:28,129 INFO Learning rate: 1e-05
+2021-02-09 12:20:42,833 INFO beginning validation
+2021-02-09 12:20:46,076 INFO Used Validation Accuracy is : 0.96105
+2021-02-09 12:20:46,076 INFO Used Average validation loss is: 0.1105615676522255
+2021-02-09 12:20:46,077 INFO finished validation
+2021-02-09 12:20:46,077 INFO EPOCH 188
+2021-02-09 12:20:46,077 INFO Learning rate: 1e-05
+2021-02-09 12:21:02,814 INFO beginning validation
+2021-02-09 12:21:06,343 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 12:21:06,343 INFO Used Average validation loss is: 0.11168444156050682
+2021-02-09 12:21:06,343 INFO finished validation
+2021-02-09 12:21:06,344 INFO EPOCH 189
+2021-02-09 12:21:06,344 INFO Learning rate: 1e-05
+2021-02-09 12:21:20,643 INFO beginning validation
+2021-02-09 12:21:23,987 INFO Used Validation Accuracy is : 0.96115
+2021-02-09 12:21:23,987 INFO Used Average validation loss is: 0.11050135509371757
+2021-02-09 12:21:23,987 INFO finished validation
+2021-02-09 12:21:23,988 INFO EPOCH 190
+2021-02-09 12:21:23,988 INFO Learning rate: 1e-05
+2021-02-09 12:21:38,012 INFO beginning validation
+2021-02-09 12:21:41,261 INFO Used Validation Accuracy is : 0.96135
+2021-02-09 12:21:41,261 INFO Used Average validation loss is: 0.10997838556170464
+2021-02-09 12:21:41,261 INFO finished validation
+2021-02-09 12:21:41,357 INFO EPOCH 191
+2021-02-09 12:21:41,357 INFO Learning rate: 1e-05
+2021-02-09 12:21:52,499 INFO beginning validation
+2021-02-09 12:21:55,630 INFO Used Validation Accuracy is : 0.96025
+2021-02-09 12:21:55,631 INFO Used Average validation loss is: 0.11120796047449112
+2021-02-09 12:21:55,631 INFO finished validation
+2021-02-09 12:21:55,632 INFO EPOCH 192
+2021-02-09 12:21:55,632 INFO Learning rate: 1e-05
+2021-02-09 12:22:12,882 INFO beginning validation
+2021-02-09 12:22:16,120 INFO Used Validation Accuracy is : 0.96065
+2021-02-09 12:22:16,120 INFO Used Average validation loss is: 0.11079586659669877
+2021-02-09 12:22:16,121 INFO finished validation
+2021-02-09 12:22:16,121 INFO EPOCH 193
+2021-02-09 12:22:16,121 INFO Learning rate: 1e-05
+2021-02-09 12:22:31,200 INFO beginning validation
+2021-02-09 12:22:34,398 INFO Used Validation Accuracy is : 0.96075
+2021-02-09 12:22:34,398 INFO Used Average validation loss is: 0.1115136833846569
+2021-02-09 12:22:34,398 INFO finished validation
+2021-02-09 12:22:34,399 INFO EPOCH 194
+2021-02-09 12:22:34,399 INFO Learning rate: 1e-05
+2021-02-09 12:22:50,503 INFO beginning validation
+2021-02-09 12:22:53,687 INFO Used Validation Accuracy is : 0.96095
+2021-02-09 12:22:53,687 INFO Used Average validation loss is: 0.11009418132901191
+2021-02-09 12:22:53,687 INFO finished validation
+2021-02-09 12:22:53,688 INFO EPOCH 195
+2021-02-09 12:22:53,688 INFO Learning rate: 1e-05
+2021-02-09 12:23:08,681 INFO beginning validation
+2021-02-09 12:23:12,329 INFO Used Validation Accuracy is : 0.96065
+2021-02-09 12:23:12,329 INFO Used Average validation loss is: 0.11014249546527863
+2021-02-09 12:23:12,329 INFO finished validation
+2021-02-09 12:23:12,330 INFO EPOCH 196
+2021-02-09 12:23:12,330 INFO Learning rate: 1e-05
+2021-02-09 12:23:28,814 INFO beginning validation
+2021-02-09 12:23:31,938 INFO Used Validation Accuracy is : 0.96015
+2021-02-09 12:23:31,938 INFO Used Average validation loss is: 0.1114953418135643
+2021-02-09 12:23:31,938 INFO finished validation
+2021-02-09 12:23:31,939 INFO EPOCH 197
+2021-02-09 12:23:31,939 INFO Learning rate: 1e-05
+2021-02-09 12:23:48,341 INFO beginning validation
+2021-02-09 12:23:51,767 INFO Used Validation Accuracy is : 0.9596
+2021-02-09 12:23:51,767 INFO Used Average validation loss is: 0.11189700784087181
+2021-02-09 12:23:51,767 INFO finished validation
+2021-02-09 12:23:51,768 INFO EPOCH 198
+2021-02-09 12:23:51,768 INFO Learning rate: 1e-05
+2021-02-09 12:24:06,733 INFO beginning validation
+2021-02-09 12:24:10,047 INFO Used Validation Accuracy is : 0.95995
+2021-02-09 12:24:10,047 INFO Used Average validation loss is: 0.11229953414797783
+2021-02-09 12:24:10,047 INFO finished validation
+2021-02-09 12:24:10,048 INFO EPOCH 199
+2021-02-09 12:24:10,048 INFO Learning rate: 1e-05
+2021-02-09 12:24:26,194 INFO beginning validation
+2021-02-09 12:24:29,413 INFO Used Validation Accuracy is : 0.96075
+2021-02-09 12:24:29,413 INFO Used Average validation loss is: 0.11010777551531792
+2021-02-09 12:24:29,413 INFO finished validation
+2021-02-09 12:24:29,414 INFO EPOCH 200
+2021-02-09 12:24:29,414 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:24:45,549 INFO beginning validation
+2021-02-09 12:24:48,737 INFO Used Validation Accuracy is : 0.95975
+2021-02-09 12:24:48,737 INFO Used Average validation loss is: 0.11151941037774087
+2021-02-09 12:24:48,737 INFO finished validation
+2021-02-09 12:24:48,738 INFO EPOCH 201
+2021-02-09 12:24:48,738 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:25:05,498 INFO beginning validation
+2021-02-09 12:25:08,703 INFO Used Validation Accuracy is : 0.96085
+2021-02-09 12:25:08,703 INFO Used Average validation loss is: 0.10968157199025154
+2021-02-09 12:25:08,703 INFO finished validation
+2021-02-09 12:25:08,704 INFO EPOCH 202
+2021-02-09 12:25:08,704 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:25:23,575 INFO beginning validation
+2021-02-09 12:25:26,805 INFO Used Validation Accuracy is : 0.9599
+2021-02-09 12:25:26,806 INFO Used Average validation loss is: 0.11118764770627022
+2021-02-09 12:25:26,806 INFO finished validation
+2021-02-09 12:25:26,807 INFO EPOCH 203
+2021-02-09 12:25:26,807 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:25:40,118 INFO beginning validation
+2021-02-09 12:25:43,269 INFO Used Validation Accuracy is : 0.96025
+2021-02-09 12:25:43,269 INFO Used Average validation loss is: 0.11000042898654938
+2021-02-09 12:25:43,269 INFO finished validation
+2021-02-09 12:25:43,270 INFO EPOCH 204
+2021-02-09 12:25:43,270 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:26:00,551 INFO beginning validation
+2021-02-09 12:26:03,812 INFO Used Validation Accuracy is : 0.9601
+2021-02-09 12:26:03,812 INFO Used Average validation loss is: 0.11017655979990959
+2021-02-09 12:26:03,812 INFO finished validation
+2021-02-09 12:26:03,812 INFO EPOCH 205
+2021-02-09 12:26:03,813 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:26:20,679 INFO beginning validation
+2021-02-09 12:26:23,947 INFO Used Validation Accuracy is : 0.9602
+2021-02-09 12:26:23,947 INFO Used Average validation loss is: 0.11119664852023124
+2021-02-09 12:26:23,947 INFO finished validation
+2021-02-09 12:26:23,948 INFO EPOCH 206
+2021-02-09 12:26:23,948 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:26:40,495 INFO beginning validation
+2021-02-09 12:26:43,767 INFO Used Validation Accuracy is : 0.9609
+2021-02-09 12:26:43,767 INFO Used Average validation loss is: 0.10997700632214547
+2021-02-09 12:26:43,767 INFO finished validation
+2021-02-09 12:26:43,767 INFO EPOCH 207
+2021-02-09 12:26:43,767 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:26:59,368 INFO beginning validation
+2021-02-09 12:27:02,562 INFO Used Validation Accuracy is : 0.96045
+2021-02-09 12:27:02,562 INFO Used Average validation loss is: 0.1114686556339264
+2021-02-09 12:27:02,562 INFO finished validation
+2021-02-09 12:27:02,563 INFO EPOCH 208
+2021-02-09 12:27:02,563 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:27:17,857 INFO beginning validation
+2021-02-09 12:27:21,136 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:27:21,136 INFO Used Average validation loss is: 0.11061088098883629
+2021-02-09 12:27:21,136 INFO finished validation
+2021-02-09 12:27:21,136 INFO EPOCH 209
+2021-02-09 12:27:21,136 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:27:37,160 INFO beginning validation
+2021-02-09 12:27:40,430 INFO Used Validation Accuracy is : 0.96085
+2021-02-09 12:27:40,430 INFO Used Average validation loss is: 0.11079006949663162
+2021-02-09 12:27:40,430 INFO finished validation
+2021-02-09 12:27:40,431 INFO EPOCH 210
+2021-02-09 12:27:40,431 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:27:57,058 INFO beginning validation
+2021-02-09 12:28:00,312 INFO Used Validation Accuracy is : 0.95985
+2021-02-09 12:28:00,312 INFO Used Average validation loss is: 0.11153607584238052
+2021-02-09 12:28:00,312 INFO finished validation
+2021-02-09 12:28:00,313 INFO EPOCH 211
+2021-02-09 12:28:00,313 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:28:14,657 INFO beginning validation
+2021-02-09 12:28:17,918 INFO Used Validation Accuracy is : 0.95995
+2021-02-09 12:28:17,918 INFO Used Average validation loss is: 0.10997648106217384
+2021-02-09 12:28:17,918 INFO finished validation
+2021-02-09 12:28:17,919 INFO EPOCH 212
+2021-02-09 12:28:17,919 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:28:34,867 INFO beginning validation
+2021-02-09 12:28:38,004 INFO Used Validation Accuracy is : 0.9605
+2021-02-09 12:28:38,004 INFO Used Average validation loss is: 0.11119539405703545
+2021-02-09 12:28:38,004 INFO finished validation
+2021-02-09 12:28:38,005 INFO EPOCH 213
+2021-02-09 12:28:38,005 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:28:54,630 INFO beginning validation
+2021-02-09 12:28:58,021 INFO Used Validation Accuracy is : 0.9605
+2021-02-09 12:28:58,022 INFO Used Average validation loss is: 0.11032436746358872
+2021-02-09 12:28:58,022 INFO finished validation
+2021-02-09 12:28:58,023 INFO EPOCH 214
+2021-02-09 12:28:58,023 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:29:13,687 INFO beginning validation
+2021-02-09 12:29:17,232 INFO Used Validation Accuracy is : 0.9608
+2021-02-09 12:29:17,232 INFO Used Average validation loss is: 0.11105936761498451
+2021-02-09 12:29:17,232 INFO finished validation
+2021-02-09 12:29:17,233 INFO EPOCH 215
+2021-02-09 12:29:17,233 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:29:33,567 INFO beginning validation
+2021-02-09 12:29:36,887 INFO Used Validation Accuracy is : 0.9593
+2021-02-09 12:29:36,887 INFO Used Average validation loss is: 0.11244571694433689
+2021-02-09 12:29:36,887 INFO finished validation
+2021-02-09 12:29:36,888 INFO EPOCH 216
+2021-02-09 12:29:36,888 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:29:51,042 INFO beginning validation
+2021-02-09 12:29:54,249 INFO Used Validation Accuracy is : 0.96055
+2021-02-09 12:29:54,249 INFO Used Average validation loss is: 0.1105524551331997
+2021-02-09 12:29:54,249 INFO finished validation
+2021-02-09 12:29:54,250 INFO EPOCH 217
+2021-02-09 12:29:54,250 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:30:09,414 INFO beginning validation
+2021-02-09 12:30:12,892 INFO Used Validation Accuracy is : 0.96015
+2021-02-09 12:30:12,892 INFO Used Average validation loss is: 0.11087607110738754
+2021-02-09 12:30:12,892 INFO finished validation
+2021-02-09 12:30:12,893 INFO EPOCH 218
+2021-02-09 12:30:12,893 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:30:29,092 INFO beginning validation
+2021-02-09 12:30:32,315 INFO Used Validation Accuracy is : 0.96075
+2021-02-09 12:30:32,315 INFO Used Average validation loss is: 0.11034537795782089
+2021-02-09 12:30:32,315 INFO finished validation
+2021-02-09 12:30:32,316 INFO EPOCH 219
+2021-02-09 12:30:32,316 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:30:48,286 INFO beginning validation
+2021-02-09 12:30:51,634 INFO Used Validation Accuracy is : 0.9603
+2021-02-09 12:30:51,634 INFO Used Average validation loss is: 0.11047777903676033
+2021-02-09 12:30:51,635 INFO finished validation
+2021-02-09 12:30:51,635 INFO EPOCH 220
+2021-02-09 12:30:51,635 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:31:07,496 INFO beginning validation
+2021-02-09 12:31:10,778 INFO Used Validation Accuracy is : 0.9598
+2021-02-09 12:31:10,778 INFO Used Average validation loss is: 0.11202607459425926
+2021-02-09 12:31:10,778 INFO finished validation
+2021-02-09 12:31:10,779 INFO EPOCH 221
+2021-02-09 12:31:10,779 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:31:25,976 INFO beginning validation
+2021-02-09 12:31:29,434 INFO Used Validation Accuracy is : 0.96075
+2021-02-09 12:31:29,434 INFO Used Average validation loss is: 0.11092946374416351
+2021-02-09 12:31:29,434 INFO finished validation
+2021-02-09 12:31:29,435 INFO EPOCH 222
+2021-02-09 12:31:29,435 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:31:46,241 INFO beginning validation
+2021-02-09 12:31:49,631 INFO Used Validation Accuracy is : 0.9605
+2021-02-09 12:31:49,632 INFO Used Average validation loss is: 0.11051166980862617
+2021-02-09 12:31:49,632 INFO finished validation
+2021-02-09 12:31:49,633 INFO EPOCH 223
+2021-02-09 12:31:49,633 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:32:04,468 INFO beginning validation
+2021-02-09 12:32:07,586 INFO Used Validation Accuracy is : 0.95915
+2021-02-09 12:32:07,586 INFO Used Average validation loss is: 0.11295513619184494
+2021-02-09 12:32:07,586 INFO finished validation
+2021-02-09 12:32:07,587 INFO EPOCH 224
+2021-02-09 12:32:07,587 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:32:24,540 INFO beginning validation
+2021-02-09 12:32:27,720 INFO Used Validation Accuracy is : 0.9603
+2021-02-09 12:32:27,720 INFO Used Average validation loss is: 0.11044412916302682
+2021-02-09 12:32:27,720 INFO finished validation
+2021-02-09 12:32:27,720 INFO EPOCH 225
+2021-02-09 12:32:27,720 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:32:44,791 INFO beginning validation
+2021-02-09 12:32:47,955 INFO Used Validation Accuracy is : 0.96035
+2021-02-09 12:32:47,955 INFO Used Average validation loss is: 0.11085167611241341
+2021-02-09 12:32:47,955 INFO finished validation
+2021-02-09 12:32:47,956 INFO EPOCH 226
+2021-02-09 12:32:47,956 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:33:05,359 INFO beginning validation
+2021-02-09 12:33:08,620 INFO Used Validation Accuracy is : 0.9607
+2021-02-09 12:33:08,620 INFO Used Average validation loss is: 0.11021436192393302
+2021-02-09 12:33:08,620 INFO finished validation
+2021-02-09 12:33:08,621 INFO EPOCH 227
+2021-02-09 12:33:08,621 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:33:22,164 INFO beginning validation
+2021-02-09 12:33:25,316 INFO Used Validation Accuracy is : 0.95975
+2021-02-09 12:33:25,317 INFO Used Average validation loss is: 0.11203450281620025
+2021-02-09 12:33:25,317 INFO finished validation
+2021-02-09 12:33:25,318 INFO EPOCH 228
+2021-02-09 12:33:25,318 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:33:41,858 INFO beginning validation
+2021-02-09 12:33:45,249 INFO Used Validation Accuracy is : 0.96085
+2021-02-09 12:33:45,249 INFO Used Average validation loss is: 0.11038496763706207
+2021-02-09 12:33:45,249 INFO finished validation
+2021-02-09 12:33:45,250 INFO EPOCH 229
+2021-02-09 12:33:45,250 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:34:01,824 INFO beginning validation
+2021-02-09 12:34:05,119 INFO Used Validation Accuracy is : 0.9609
+2021-02-09 12:34:05,120 INFO Used Average validation loss is: 0.11005396605730057
+2021-02-09 12:34:05,120 INFO finished validation
+2021-02-09 12:34:05,120 INFO EPOCH 230
+2021-02-09 12:34:05,121 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:34:21,494 INFO beginning validation
+2021-02-09 12:34:24,727 INFO Used Validation Accuracy is : 0.95915
+2021-02-09 12:34:24,727 INFO Used Average validation loss is: 0.11252328686118127
+2021-02-09 12:34:24,727 INFO finished validation
+2021-02-09 12:34:24,728 INFO EPOCH 231
+2021-02-09 12:34:24,728 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:34:40,270 INFO beginning validation
+2021-02-09 12:34:43,579 INFO Used Validation Accuracy is : 0.96135
+2021-02-09 12:34:43,580 INFO Used Average validation loss is: 0.11081587045788766
+2021-02-09 12:34:43,580 INFO finished validation
+2021-02-09 12:34:43,580 INFO EPOCH 232
+2021-02-09 12:34:43,581 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:34:55,685 INFO beginning validation
+2021-02-09 12:34:59,095 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 12:34:59,095 INFO Used Average validation loss is: 0.11342406778335572
+2021-02-09 12:34:59,095 INFO finished validation
+2021-02-09 12:34:59,096 INFO EPOCH 233
+2021-02-09 12:34:59,096 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:35:15,708 INFO beginning validation
+2021-02-09 12:35:18,968 INFO Used Validation Accuracy is : 0.96
+2021-02-09 12:35:18,969 INFO Used Average validation loss is: 0.11138952603936195
+2021-02-09 12:35:18,969 INFO finished validation
+2021-02-09 12:35:18,970 INFO EPOCH 234
+2021-02-09 12:35:18,970 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:35:33,532 INFO beginning validation
+2021-02-09 12:35:36,804 INFO Used Validation Accuracy is : 0.95995
+2021-02-09 12:35:36,804 INFO Used Average validation loss is: 0.11092223556041718
+2021-02-09 12:35:36,804 INFO finished validation
+2021-02-09 12:35:36,805 INFO EPOCH 235
+2021-02-09 12:35:36,805 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:35:52,048 INFO beginning validation
+2021-02-09 12:35:55,147 INFO Used Validation Accuracy is : 0.9603
+2021-02-09 12:35:55,147 INFO Used Average validation loss is: 0.11033993157744408
+2021-02-09 12:35:55,147 INFO finished validation
+2021-02-09 12:35:55,148 INFO EPOCH 236
+2021-02-09 12:35:55,148 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:36:11,309 INFO beginning validation
+2021-02-09 12:36:14,443 INFO Used Validation Accuracy is : 0.9603
+2021-02-09 12:36:14,443 INFO Used Average validation loss is: 0.11070301439166069
+2021-02-09 12:36:14,443 INFO finished validation
+2021-02-09 12:36:14,444 INFO EPOCH 237
+2021-02-09 12:36:14,444 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:36:29,274 INFO beginning validation
+2021-02-09 12:36:33,584 INFO Used Validation Accuracy is : 0.95995
+2021-02-09 12:36:33,585 INFO Used Average validation loss is: 0.1114932065486908
+2021-02-09 12:36:33,585 INFO finished validation
+2021-02-09 12:36:33,586 INFO EPOCH 238
+2021-02-09 12:36:33,586 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:36:48,297 INFO beginning validation
+2021-02-09 12:36:51,675 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:36:51,675 INFO Used Average validation loss is: 0.109598453438282
+2021-02-09 12:36:51,675 INFO finished validation
+2021-02-09 12:36:51,676 INFO EPOCH 239
+2021-02-09 12:36:51,676 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:37:07,289 INFO beginning validation
+2021-02-09 12:37:11,020 INFO Used Validation Accuracy is : 0.96035
+2021-02-09 12:37:11,020 INFO Used Average validation loss is: 0.11089288684129715
+2021-02-09 12:37:11,020 INFO finished validation
+2021-02-09 12:37:11,021 INFO EPOCH 240
+2021-02-09 12:37:11,021 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:37:27,528 INFO beginning validation
+2021-02-09 12:37:31,389 INFO Used Validation Accuracy is : 0.9602
+2021-02-09 12:37:31,390 INFO Used Average validation loss is: 0.1109498278260231
+2021-02-09 12:37:31,390 INFO finished validation
+2021-02-09 12:37:31,390 INFO EPOCH 241
+2021-02-09 12:37:31,391 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:37:47,969 INFO beginning validation
+2021-02-09 12:37:52,079 INFO Used Validation Accuracy is : 0.9601
+2021-02-09 12:37:52,079 INFO Used Average validation loss is: 0.11108854531049728
+2021-02-09 12:37:52,079 INFO finished validation
+2021-02-09 12:37:52,080 INFO EPOCH 242
+2021-02-09 12:37:52,080 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:38:08,753 INFO beginning validation
+2021-02-09 12:38:12,254 INFO Used Validation Accuracy is : 0.96095
+2021-02-09 12:38:12,254 INFO Used Average validation loss is: 0.11015584970712662
+2021-02-09 12:38:12,254 INFO finished validation
+2021-02-09 12:38:12,254 INFO EPOCH 243
+2021-02-09 12:38:12,254 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:38:28,729 INFO beginning validation
+2021-02-09 12:38:32,673 INFO Used Validation Accuracy is : 0.96055
+2021-02-09 12:38:32,673 INFO Used Average validation loss is: 0.11016715787351132
+2021-02-09 12:38:32,673 INFO finished validation
+2021-02-09 12:38:32,674 INFO EPOCH 244
+2021-02-09 12:38:32,674 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:38:49,007 INFO beginning validation
+2021-02-09 12:38:52,200 INFO Used Validation Accuracy is : 0.96095
+2021-02-09 12:38:52,200 INFO Used Average validation loss is: 0.1101379722058773
+2021-02-09 12:38:52,200 INFO finished validation
+2021-02-09 12:38:52,201 INFO EPOCH 245
+2021-02-09 12:38:52,201 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:39:07,427 INFO beginning validation
+2021-02-09 12:39:10,632 INFO Used Validation Accuracy is : 0.9597
+2021-02-09 12:39:10,633 INFO Used Average validation loss is: 0.11233874664902688
+2021-02-09 12:39:10,633 INFO finished validation
+2021-02-09 12:39:10,634 INFO EPOCH 246
+2021-02-09 12:39:10,634 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:39:26,505 INFO beginning validation
+2021-02-09 12:39:29,701 INFO Used Validation Accuracy is : 0.9609
+2021-02-09 12:39:29,701 INFO Used Average validation loss is: 0.10959711632132531
+2021-02-09 12:39:29,701 INFO finished validation
+2021-02-09 12:39:29,701 INFO EPOCH 247
+2021-02-09 12:39:29,702 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:39:46,194 INFO beginning validation
+2021-02-09 12:39:49,493 INFO Used Validation Accuracy is : 0.961
+2021-02-09 12:39:49,493 INFO Used Average validation loss is: 0.1102845323741436
+2021-02-09 12:39:49,493 INFO finished validation
+2021-02-09 12:39:49,494 INFO EPOCH 248
+2021-02-09 12:39:49,494 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:40:06,071 INFO beginning validation
+2021-02-09 12:40:09,506 INFO Used Validation Accuracy is : 0.96125
+2021-02-09 12:40:09,507 INFO Used Average validation loss is: 0.1097357756793499
+2021-02-09 12:40:09,507 INFO finished validation
+2021-02-09 12:40:09,508 INFO EPOCH 249
+2021-02-09 12:40:09,508 INFO Learning rate: 1.0000000000000002e-06
+2021-02-09 12:40:25,462 INFO beginning validation
+2021-02-09 12:40:28,680 INFO Used Validation Accuracy is : 0.9592
+2021-02-09 12:40:28,680 INFO Used Average validation loss is: 0.11335564050078392
+2021-02-09 12:40:28,680 INFO finished validation
+2021-02-09 12:40:28,681 INFO EPOCH 250
+2021-02-09 12:40:28,681 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:40:45,700 INFO beginning validation
+2021-02-09 12:40:48,883 INFO Used Validation Accuracy is : 0.961
+2021-02-09 12:40:48,884 INFO Used Average validation loss is: 0.10967831853032112
+2021-02-09 12:40:48,884 INFO finished validation
+2021-02-09 12:40:48,885 INFO EPOCH 251
+2021-02-09 12:40:48,885 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:41:00,221 INFO beginning validation
+2021-02-09 12:41:03,446 INFO Used Validation Accuracy is : 0.96005
+2021-02-09 12:41:03,447 INFO Used Average validation loss is: 0.11127906169891358
+2021-02-09 12:41:03,447 INFO finished validation
+2021-02-09 12:41:03,448 INFO EPOCH 252
+2021-02-09 12:41:03,449 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:41:19,837 INFO beginning validation
+2021-02-09 12:41:23,136 INFO Used Validation Accuracy is : 0.9602
+2021-02-09 12:41:23,136 INFO Used Average validation loss is: 0.11082885839343071
+2021-02-09 12:41:23,136 INFO finished validation
+2021-02-09 12:41:23,137 INFO EPOCH 253
+2021-02-09 12:41:23,137 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:41:37,532 INFO beginning validation
+2021-02-09 12:41:40,890 INFO Used Validation Accuracy is : 0.9608
+2021-02-09 12:41:40,891 INFO Used Average validation loss is: 0.10975438433289528
+2021-02-09 12:41:40,891 INFO finished validation
+2021-02-09 12:41:40,892 INFO EPOCH 254
+2021-02-09 12:41:40,892 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:41:58,248 INFO beginning validation
+2021-02-09 12:42:01,555 INFO Used Validation Accuracy is : 0.9584
+2021-02-09 12:42:01,555 INFO Used Average validation loss is: 0.11470403483510018
+2021-02-09 12:42:01,555 INFO finished validation
+2021-02-09 12:42:01,556 INFO EPOCH 255
+2021-02-09 12:42:01,556 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:42:17,922 INFO beginning validation
+2021-02-09 12:42:21,265 INFO Used Validation Accuracy is : 0.96075
+2021-02-09 12:42:21,265 INFO Used Average validation loss is: 0.11054030791521072
+2021-02-09 12:42:21,265 INFO finished validation
+2021-02-09 12:42:21,266 INFO EPOCH 256
+2021-02-09 12:42:21,266 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:42:33,588 INFO beginning validation
+2021-02-09 12:42:36,896 INFO Used Validation Accuracy is : 0.9597
+2021-02-09 12:42:36,897 INFO Used Average validation loss is: 0.11250856624245643
+2021-02-09 12:42:36,897 INFO finished validation
+2021-02-09 12:42:36,897 INFO EPOCH 257
+2021-02-09 12:42:36,898 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:42:52,097 INFO beginning validation
+2021-02-09 12:42:55,517 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 12:42:55,517 INFO Used Average validation loss is: 0.11191137558817864
+2021-02-09 12:42:55,518 INFO finished validation
+2021-02-09 12:42:55,518 INFO EPOCH 258
+2021-02-09 12:42:55,518 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:43:11,974 INFO beginning validation
+2021-02-09 12:43:15,241 INFO Used Validation Accuracy is : 0.95965
+2021-02-09 12:43:15,242 INFO Used Average validation loss is: 0.1112518521130085
+2021-02-09 12:43:15,242 INFO finished validation
+2021-02-09 12:43:15,242 INFO EPOCH 259
+2021-02-09 12:43:15,242 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:43:30,926 INFO beginning validation
+2021-02-09 12:43:34,145 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:43:34,145 INFO Used Average validation loss is: 0.1117856769323349
+2021-02-09 12:43:34,146 INFO finished validation
+2021-02-09 12:43:34,146 INFO EPOCH 260
+2021-02-09 12:43:34,147 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:43:50,146 INFO beginning validation
+2021-02-09 12:43:53,951 INFO Used Validation Accuracy is : 0.96065
+2021-02-09 12:43:53,951 INFO Used Average validation loss is: 0.10976962232589722
+2021-02-09 12:43:53,951 INFO finished validation
+2021-02-09 12:43:53,952 INFO EPOCH 261
+2021-02-09 12:43:53,952 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:44:11,145 INFO beginning validation
+2021-02-09 12:44:14,467 INFO Used Validation Accuracy is : 0.96125
+2021-02-09 12:44:14,467 INFO Used Average validation loss is: 0.10993246456384659
+2021-02-09 12:44:14,467 INFO finished validation
+2021-02-09 12:44:14,468 INFO EPOCH 262
+2021-02-09 12:44:14,468 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:44:31,348 INFO beginning validation
+2021-02-09 12:44:34,617 INFO Used Validation Accuracy is : 0.96075
+2021-02-09 12:44:34,618 INFO Used Average validation loss is: 0.11058406354784965
+2021-02-09 12:44:34,618 INFO finished validation
+2021-02-09 12:44:34,618 INFO EPOCH 263
+2021-02-09 12:44:34,619 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:44:51,676 INFO beginning validation
+2021-02-09 12:44:54,952 INFO Used Validation Accuracy is : 0.95985
+2021-02-09 12:44:54,953 INFO Used Average validation loss is: 0.11120015325546265
+2021-02-09 12:44:54,953 INFO finished validation
+2021-02-09 12:44:54,954 INFO EPOCH 264
+2021-02-09 12:44:54,954 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:45:08,565 INFO beginning validation
+2021-02-09 12:45:11,740 INFO Used Validation Accuracy is : 0.9601
+2021-02-09 12:45:11,741 INFO Used Average validation loss is: 0.11173795296549797
+2021-02-09 12:45:11,741 INFO finished validation
+2021-02-09 12:45:11,742 INFO EPOCH 265
+2021-02-09 12:45:11,742 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:45:27,877 INFO beginning validation
+2021-02-09 12:45:31,242 INFO Used Validation Accuracy is : 0.96045
+2021-02-09 12:45:31,242 INFO Used Average validation loss is: 0.11047287410497665
+2021-02-09 12:45:31,242 INFO finished validation
+2021-02-09 12:45:31,243 INFO EPOCH 266
+2021-02-09 12:45:31,243 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:45:48,055 INFO beginning validation
+2021-02-09 12:45:51,237 INFO Used Validation Accuracy is : 0.9599
+2021-02-09 12:45:51,238 INFO Used Average validation loss is: 0.11093547018170356
+2021-02-09 12:45:51,238 INFO finished validation
+2021-02-09 12:45:51,239 INFO EPOCH 267
+2021-02-09 12:45:51,239 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:46:08,541 INFO beginning validation
+2021-02-09 12:46:11,790 INFO Used Validation Accuracy is : 0.95995
+2021-02-09 12:46:11,790 INFO Used Average validation loss is: 0.11131808357238769
+2021-02-09 12:46:11,790 INFO finished validation
+2021-02-09 12:46:11,790 INFO EPOCH 268
+2021-02-09 12:46:11,790 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:46:26,990 INFO beginning validation
+2021-02-09 12:46:30,233 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:46:30,234 INFO Used Average validation loss is: 0.10986475360989571
+2021-02-09 12:46:30,234 INFO finished validation
+2021-02-09 12:46:30,235 INFO EPOCH 269
+2021-02-09 12:46:30,235 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:46:47,011 INFO beginning validation
+2021-02-09 12:46:50,259 INFO Used Validation Accuracy is : 0.96025
+2021-02-09 12:46:50,260 INFO Used Average validation loss is: 0.11149377393722534
+2021-02-09 12:46:50,260 INFO finished validation
+2021-02-09 12:46:50,260 INFO EPOCH 270
+2021-02-09 12:46:50,260 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:47:04,064 INFO beginning validation
+2021-02-09 12:47:07,342 INFO Used Validation Accuracy is : 0.9606
+2021-02-09 12:47:07,342 INFO Used Average validation loss is: 0.1100396432518959
+2021-02-09 12:47:07,342 INFO finished validation
+2021-02-09 12:47:07,342 INFO EPOCH 271
+2021-02-09 12:47:07,342 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:47:23,390 INFO beginning validation
+2021-02-09 12:47:26,702 INFO Used Validation Accuracy is : 0.9599
+2021-02-09 12:47:26,703 INFO Used Average validation loss is: 0.11078172551393509
+2021-02-09 12:47:26,703 INFO finished validation
+2021-02-09 12:47:26,704 INFO EPOCH 272
+2021-02-09 12:47:26,704 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:47:38,950 INFO beginning validation
+2021-02-09 12:47:42,269 INFO Used Validation Accuracy is : 0.9604
+2021-02-09 12:47:42,269 INFO Used Average validation loss is: 0.11027720330357552
+2021-02-09 12:47:42,269 INFO finished validation
+2021-02-09 12:47:42,270 INFO EPOCH 273
+2021-02-09 12:47:42,270 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:47:58,132 INFO beginning validation
+2021-02-09 12:48:01,260 INFO Used Validation Accuracy is : 0.9589
+2021-02-09 12:48:01,260 INFO Used Average validation loss is: 0.11397643533349038
+2021-02-09 12:48:01,260 INFO finished validation
+2021-02-09 12:48:01,261 INFO EPOCH 274
+2021-02-09 12:48:01,261 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:48:17,795 INFO beginning validation
+2021-02-09 12:48:21,538 INFO Used Validation Accuracy is : 0.9596
+2021-02-09 12:48:21,539 INFO Used Average validation loss is: 0.11079756605625153
+2021-02-09 12:48:21,539 INFO finished validation
+2021-02-09 12:48:21,540 INFO EPOCH 275
+2021-02-09 12:48:21,540 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:48:38,299 INFO beginning validation
+2021-02-09 12:48:41,999 INFO Used Validation Accuracy is : 0.95955
+2021-02-09 12:48:41,999 INFO Used Average validation loss is: 0.11351200260519981
+2021-02-09 12:48:41,999 INFO finished validation
+2021-02-09 12:48:42,000 INFO EPOCH 276
+2021-02-09 12:48:42,000 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:48:58,262 INFO beginning validation
+2021-02-09 12:49:01,623 INFO Used Validation Accuracy is : 0.96035
+2021-02-09 12:49:01,623 INFO Used Average validation loss is: 0.11138133968114852
+2021-02-09 12:49:01,623 INFO finished validation
+2021-02-09 12:49:01,624 INFO EPOCH 277
+2021-02-09 12:49:01,624 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:49:18,926 INFO beginning validation
+2021-02-09 12:49:22,306 INFO Used Validation Accuracy is : 0.9603
+2021-02-09 12:49:22,307 INFO Used Average validation loss is: 0.11113214458227158
+2021-02-09 12:49:22,307 INFO finished validation
+2021-02-09 12:49:22,307 INFO EPOCH 278
+2021-02-09 12:49:22,307 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:49:37,701 INFO beginning validation
+2021-02-09 12:49:41,929 INFO Used Validation Accuracy is : 0.96055
+2021-02-09 12:49:41,930 INFO Used Average validation loss is: 0.10962665189504624
+2021-02-09 12:49:41,930 INFO finished validation
+2021-02-09 12:49:41,930 INFO EPOCH 279
+2021-02-09 12:49:41,930 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:49:58,605 INFO beginning validation
+2021-02-09 12:50:01,961 INFO Used Validation Accuracy is : 0.9602
+2021-02-09 12:50:01,962 INFO Used Average validation loss is: 0.11233036598563194
+2021-02-09 12:50:01,962 INFO finished validation
+2021-02-09 12:50:01,963 INFO EPOCH 280
+2021-02-09 12:50:01,963 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:50:18,488 INFO beginning validation
+2021-02-09 12:50:22,169 INFO Used Validation Accuracy is : 0.9609
+2021-02-09 12:50:22,170 INFO Used Average validation loss is: 0.1104313955783844
+2021-02-09 12:50:22,170 INFO finished validation
+2021-02-09 12:50:22,170 INFO EPOCH 281
+2021-02-09 12:50:22,170 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:50:38,844 INFO beginning validation
+2021-02-09 12:50:42,675 INFO Used Validation Accuracy is : 0.96035
+2021-02-09 12:50:42,675 INFO Used Average validation loss is: 0.11169683871269226
+2021-02-09 12:50:42,675 INFO finished validation
+2021-02-09 12:50:42,676 INFO EPOCH 282
+2021-02-09 12:50:42,676 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:50:59,226 INFO beginning validation
+2021-02-09 12:51:02,791 INFO Used Validation Accuracy is : 0.9601
+2021-02-09 12:51:02,792 INFO Used Average validation loss is: 0.11123643708229065
+2021-02-09 12:51:02,792 INFO finished validation
+2021-02-09 12:51:02,792 INFO EPOCH 283
+2021-02-09 12:51:02,792 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:51:19,102 INFO beginning validation
+2021-02-09 12:51:22,676 INFO Used Validation Accuracy is : 0.9605
+2021-02-09 12:51:22,676 INFO Used Average validation loss is: 0.10999857545495033
+2021-02-09 12:51:22,676 INFO finished validation
+2021-02-09 12:51:22,676 INFO EPOCH 284
+2021-02-09 12:51:22,676 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:51:38,422 INFO beginning validation
+2021-02-09 12:51:41,961 INFO Used Validation Accuracy is : 0.9608
+2021-02-09 12:51:41,961 INFO Used Average validation loss is: 0.10984762899279595
+2021-02-09 12:51:41,961 INFO finished validation
+2021-02-09 12:51:41,962 INFO EPOCH 285
+2021-02-09 12:51:41,962 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:51:57,707 INFO beginning validation
+2021-02-09 12:52:01,106 INFO Used Validation Accuracy is : 0.9604
+2021-02-09 12:52:01,107 INFO Used Average validation loss is: 0.11108350703716278
+2021-02-09 12:52:01,107 INFO finished validation
+2021-02-09 12:52:01,107 INFO EPOCH 286
+2021-02-09 12:52:01,108 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:52:15,816 INFO beginning validation
+2021-02-09 12:52:19,756 INFO Used Validation Accuracy is : 0.9609
+2021-02-09 12:52:19,756 INFO Used Average validation loss is: 0.11082601026892662
+2021-02-09 12:52:19,756 INFO finished validation
+2021-02-09 12:52:19,756 INFO EPOCH 287
+2021-02-09 12:52:19,756 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:52:36,501 INFO beginning validation
+2021-02-09 12:52:40,319 INFO Used Validation Accuracy is : 0.9597
+2021-02-09 12:52:40,319 INFO Used Average validation loss is: 0.11225382196903229
+2021-02-09 12:52:40,319 INFO finished validation
+2021-02-09 12:52:40,319 INFO EPOCH 288
+2021-02-09 12:52:40,319 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:52:55,681 INFO beginning validation
+2021-02-09 12:52:59,272 INFO Used Validation Accuracy is : 0.9605
+2021-02-09 12:52:59,273 INFO Used Average validation loss is: 0.11037893317341804
+2021-02-09 12:52:59,273 INFO finished validation
+2021-02-09 12:52:59,273 INFO EPOCH 289
+2021-02-09 12:52:59,273 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:53:15,411 INFO beginning validation
+2021-02-09 12:53:18,618 INFO Used Validation Accuracy is : 0.9604
+2021-02-09 12:53:18,618 INFO Used Average validation loss is: 0.11087964580059051
+2021-02-09 12:53:18,618 INFO finished validation
+2021-02-09 12:53:18,619 INFO EPOCH 290
+2021-02-09 12:53:18,619 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:53:35,711 INFO beginning validation
+2021-02-09 12:53:39,000 INFO Used Validation Accuracy is : 0.9604
+2021-02-09 12:53:39,001 INFO Used Average validation loss is: 0.109978929322958
+2021-02-09 12:53:39,001 INFO finished validation
+2021-02-09 12:53:39,001 INFO EPOCH 291
+2021-02-09 12:53:39,001 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:53:55,122 INFO beginning validation
+2021-02-09 12:53:58,981 INFO Used Validation Accuracy is : 0.96055
+2021-02-09 12:53:58,981 INFO Used Average validation loss is: 0.11035015394687653
+2021-02-09 12:53:58,981 INFO finished validation
+2021-02-09 12:53:58,981 INFO EPOCH 292
+2021-02-09 12:53:58,982 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:54:15,181 INFO beginning validation
+2021-02-09 12:54:18,418 INFO Used Validation Accuracy is : 0.96045
+2021-02-09 12:54:18,419 INFO Used Average validation loss is: 0.11016254842877388
+2021-02-09 12:54:18,419 INFO finished validation
+2021-02-09 12:54:18,419 INFO EPOCH 293
+2021-02-09 12:54:18,419 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:54:35,088 INFO beginning validation
+2021-02-09 12:54:38,258 INFO Used Validation Accuracy is : 0.9599
+2021-02-09 12:54:38,258 INFO Used Average validation loss is: 0.11185180370807647
+2021-02-09 12:54:38,258 INFO finished validation
+2021-02-09 12:54:38,259 INFO EPOCH 294
+2021-02-09 12:54:38,259 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:54:55,694 INFO beginning validation
+2021-02-09 12:54:58,886 INFO Used Validation Accuracy is : 0.9608
+2021-02-09 12:54:58,887 INFO Used Average validation loss is: 0.1097020346403122
+2021-02-09 12:54:58,887 INFO finished validation
+2021-02-09 12:54:58,888 INFO EPOCH 295
+2021-02-09 12:54:58,888 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:55:15,704 INFO beginning validation
+2021-02-09 12:55:19,030 INFO Used Validation Accuracy is : 0.9594
+2021-02-09 12:55:19,030 INFO Used Average validation loss is: 0.11217924113869666
+2021-02-09 12:55:19,030 INFO finished validation
+2021-02-09 12:55:19,031 INFO EPOCH 296
+2021-02-09 12:55:19,031 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:55:34,317 INFO beginning validation
+2021-02-09 12:55:37,441 INFO Used Validation Accuracy is : 0.96105
+2021-02-09 12:55:37,441 INFO Used Average validation loss is: 0.10940045158267021
+2021-02-09 12:55:37,441 INFO finished validation
+2021-02-09 12:55:37,441 INFO EPOCH 297
+2021-02-09 12:55:37,441 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:55:53,656 INFO beginning validation
+2021-02-09 12:55:57,051 INFO Used Validation Accuracy is : 0.96035
+2021-02-09 12:55:57,051 INFO Used Average validation loss is: 0.11105063157081604
+2021-02-09 12:55:57,051 INFO finished validation
+2021-02-09 12:55:57,052 INFO EPOCH 298
+2021-02-09 12:55:57,052 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:56:12,967 INFO beginning validation
+2021-02-09 12:56:16,127 INFO Used Validation Accuracy is : 0.9604
+2021-02-09 12:56:16,127 INFO Used Average validation loss is: 0.11202834084033966
+2021-02-09 12:56:16,127 INFO finished validation
+2021-02-09 12:56:16,127 INFO EPOCH 299
+2021-02-09 12:56:16,127 INFO Learning rate: 1.0000000000000002e-07
+2021-02-09 12:56:33,136 INFO beginning validation
+2021-02-09 12:56:36,482 INFO Used Validation Accuracy is : 0.96025
+2021-02-09 12:56:36,482 INFO Used Average validation loss is: 0.11047680264115334
+2021-02-09 12:56:36,482 INFO finished validation

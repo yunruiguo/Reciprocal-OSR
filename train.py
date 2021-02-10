@@ -34,7 +34,6 @@ if __name__ == '__main__':
 
     parser.add_argument("--n_epochs", type=int,
                         help="number of epochs to train", default=300)
-
     parser.add_argument("--gap", type=str,
                         help="TRUE iff use global average pooling layer. Otherwise, use linear layer.", default="TRUE")
     parser.add_argument("--lr_scheduler", type=str,
@@ -51,14 +50,11 @@ if __name__ == '__main__':
                         help="how much to weight the open-set regularization term in objective.", default=0.1)
     parser.add_argument("--gamma", type=float,
                         help="how much to weight the probability assignment.", default=0.5)
-
     parser.add_argument("--divide", type=str,
                         help="TRUE or FALSE, as to whether or not to divide loss by latent_size for convergence.",
                         default="TRUE")
-
     parser.add_argument("--dataset_folder", type=str,
                         help="name of folder where dataset details live.", default="./data")
-
     parser.add_argument("--batch_size", type=int,
                         help="size of a batch during training", default=64)
     parser.add_argument("--lr", type=float,
