@@ -157,7 +157,7 @@ def save_examples(examples):
         idx_to_class = {}
 
         meta_dict = {'image_size': 32, 'image_channels': 3}
-        meta_dict['label_names'] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        meta_dict['class_names'] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
         fake_index = 0
         for _idx in range(10):
             if _idx not in split:
@@ -170,6 +170,7 @@ def save_examples(examples):
         idx_to_class_ = '{}/split{}/idx_to_class.pkl'.format(DATASET_PATH, idx)
         class_to_idx_ = '{}/split{}/class_to_idx.pkl'.format(DATASET_PATH, idx)
         meta_ = '{}/split{}/meta.pkl'.format(DATASET_PATH, idx)
+        open_meta_ = '{}/split{}/open_meta.pkl'.format(DATASET_PATH, idx)
         open_class_to_idx_ = '{}/split{}/open_class_to_idx.pkl'.format(DATASET_PATH, idx)
         open_idx_to_class_ = '{}/split{}/open_idx_to_class.pkl'.format(DATASET_PATH, idx)
 
@@ -180,6 +181,7 @@ def save_examples(examples):
         save_svhn_dataset(class_to_idx, class_to_idx_)
 
         save_svhn_dataset(meta_dict, meta_)
+        save_svhn_dataset(meta_dict, open_meta_)
         save_svhn_dataset(open_class_to_idx, open_class_to_idx_)
         save_svhn_dataset(open_idx_to_class, open_idx_to_class_)
 

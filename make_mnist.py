@@ -152,6 +152,7 @@ def download_mnist(latest_md5):
         idx_to_class_ = '{}/split{}/idx_to_class.pkl'.format(generated_DATA_DIR, idx)
         class_to_idx_ = '{}/split{}/class_to_idx.pkl'.format(generated_DATA_DIR, idx)
         meta_ = '{}/split{}/meta.pkl'.format(generated_DATA_DIR, idx)
+        open_meta_ = '{}/split{}/open_meta.pkl'.format(generated_DATA_DIR, idx)
         open_class_to_idx_ = '{}/split{}/open_class_to_idx.pkl'.format(generated_DATA_DIR, idx)
         open_idx_to_class_ = '{}/split{}/open_idx_to_class.pkl'.format(generated_DATA_DIR, idx)
 
@@ -162,6 +163,7 @@ def download_mnist(latest_md5):
         save_dataset(class_to_idx, class_to_idx_)
 
         save_dataset(meta_dict, meta_)
+        save_dataset(meta_dict, open_meta_)
         save_dataset(open_class_to_idx, open_class_to_idx_)
         save_dataset(open_idx_to_class, open_idx_to_class_)
 

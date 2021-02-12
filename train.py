@@ -33,17 +33,19 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--n_epochs", type=int,
-                        help="number of epochs to train", default=300)
+                        help="number of epochs to train", default=90)
+    parser.add_argument("--gpu_id", type=int,
+                        help="which gpu will be used", default=1)
     parser.add_argument("--gap", type=str,
                         help="TRUE iff use global average pooling layer. Otherwise, use linear layer.", default="TRUE")
     parser.add_argument("--lr_scheduler", type=str,
                         help="patience, step.", default="step")
     parser.add_argument("--dataset", type=str,
-                        help="mnist, svhn, cifar10, cifar10plus, cifar50plus, tiny_imagenet", default="cifar50plus")
+                        help="mnist, svhn, cifar10, cifar10plus, cifar50plus, tiny_imagenet", default="tiny_imagenet")
     parser.add_argument("--split", type=str,
-                        help="Split of dataset, split0, split1...", default="split0")
+                        help="Split of dataset, split0, split1...", default="split2")
     parser.add_argument("--latent_size", type=int,
-                        help="Dimension of embeddings.", default=128)
+                        help="Dimension of embeddings.", default=256)
     parser.add_argument("--num_rp_per_cls", type=int,
                         help="Number of reciprocal points per class.", default=1)
     parser.add_argument("--lamb", type=float,
@@ -60,21 +62,20 @@ if __name__ == '__main__':
     parser.add_argument("--lr", type=float,
                         help="initial learning rate during training", default=0.01)
     parser.add_argument("--patience", type=int,
-                        help="patience of lr scheduler", default=50)
+                        help="patience of lr scheduler", default=30)
     parser.add_argument("--img_size", type=int,
                         help="desired square image size.", default=32)
     parser.add_argument("--num_workers", type=int,
                         help="number of workers during training", default=4)
     parser.add_argument("--backbone", type=str,
-                        help="architecture of backbone", default="OSCRI_encoder")
+                        help="architecture of backbone", default="wide_resnet")
     parser.add_argument("--checkpoint_folder_path", type=str,
                         help="./ckpt", default="./ckpt/")
     parser.add_argument("--load_history_model", type=bool,
-                        help="True or False", default=False)
+                        help="True or False", default=True)
 
     args = parser.parse_args()
-
-
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu_id)
     CKPT_BASE_NAME = args.backbone
     LOGFILE_NAME = CKPT_BASE_NAME + '_logfile'
     experiment_ckpt_path = args.checkpoint_folder_path + args.dataset + '_' + args.split + '_' + CKPT_BASE_NAME
@@ -132,7 +133,7 @@ if __name__ == '__main__':
 
     logging.info("Number of seen classes: " + str(known_num_classes))
     dataset = CIFARDataset(train_obj, meta_dict, class_to_idx, train_trans)
-    val_dataset = CIFARDataset(train_obj, meta_dict, class_to_idx, val_trans)
+    val_dataset = CIFARDataset(test_obj, meta_dict, class_to_idx, val_trans)
 
     if args.backbone == 'OSCRI_encoder':
         model = encoder32(meta_dict['image_size'], meta_dict['image_channels'], args.latent_size, num_classes=known_num_classes, num_rp_per_cls=args.num_rp_per_cls, gap=args.gap == 'TRUE')
@@ -150,14 +151,8 @@ if __name__ == '__main__':
 
     criterion = nn.CrossEntropyLoss(reduction='none')
 
-    if args.lr_scheduler == 'step':
-        optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=args.lr)
-        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=50, gamma=0.1)
-    elif args.lr_scheduler == 'patience':
-        optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=args.lr)
-        scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=args.patience, verbose=True)
-    else:
-        raise ValueError(args.lr_scheduler + ' is not supported.')
+    optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=args.lr)
+    scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=args.patience, gamma=0.1)
 
     train_loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers)
@@ -166,7 +161,6 @@ if __name__ == '__main__':
     best_val_acc = 0.
 
     last_lr = False
-    last_patience_counter = 0
     for epoch in range(args.n_epochs):
         model.train()
         logger.info("EPOCH " + str(epoch))
@@ -221,25 +215,12 @@ if __name__ == '__main__':
         used_running_loss, used_val_acc = evaluate_val(model, criterion, val_loader, args.gamma, args.lamb, args.divide, logger)
         
         # Adjust learning rate
-        if args.lr_scheduler == 'patience':
-            scheduler.step(used_running_loss)
-        elif args.lr_scheduler == 'step':
-            scheduler.step()
-        else:
-            raise ValueError('scheduler did not update.')
+        scheduler.step()
 
         # case where only acc is top
         if used_val_acc > best_val_acc:
+            best_val_acc = used_val_acc
             torch.save(model.state_dict(), experiment_ckpt_path + '/best_model.pt')
-            
-        elif args.lr_scheduler == 'patience' and last_lr:
-            last_patience_counter += 1
-            if last_patience_counter == 5:
-                break
             
         if used_running_loss < best_used_running_loss:
             best_used_running_loss = used_running_loss
-        if used_val_acc > best_val_acc:
-            best_val_acc = used_val_acc
-            if args.lr_scheduler == 'patience' and last_lr:
-                last_patience_counter = 0

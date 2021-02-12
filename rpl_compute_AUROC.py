@@ -25,24 +25,23 @@ if __name__ == '__main__':
     parser.add_argument("--desired_features", type=str,
                         help="None means no features desired. Other examples include last, 2_to_last.", default="None")
     parser.add_argument("--latent_size", type=int,
-                        help="Dimension of embeddings.", default=128)
+                        help="Dimension of embeddings.", default=256)
     parser.add_argument("--num_rp_per_cls", type=int,
                         help="Number of reciprocal points per class.", default=1)
     parser.add_argument("--gamma", type=float,
-                        help="", default=1)
-
+                        help="", default=0.5)
+    parser.add_argument("--gpu_id", type=str,
+                        help="which gpu will be used", default='1')
     parser.add_argument("--backbone", type=str,
-                        help="architecture of backbone", default="OSCRI_encoder")
+                        help="architecture of backbone", default="wide_resnet")
     parser.add_argument("--dataset", type=str,
                         help="mnist, svhn, cifar10, cifar10plus, cifar50plus, tiny_imagenet", default="tiny_imagenet")
     parser.add_argument("--split", type=str,
-                        help="Split of dataset, split0, split1...", default="split0")
+                        help="Split of dataset, split0, split1...", default="split3")
 
     parser.add_argument("--dataset_folder", type=str,
                         help="name of folder where dataset lives.",
-                        default="../data")
-    parser.add_argument("--cifar100_path", type=str,
-                        help="path to cifar100.", default="../data/cifar-100-python/")
+                        default="./data")
 
     parser.add_argument("--checkpoint_folder_path", type=str,
                         help="full file path to folder where the baseline is located",
@@ -64,6 +63,8 @@ if __name__ == '__main__':
         open_test_obj = pickle.load(fo)
     with open(dataset_folder_path + '/meta.pkl', 'rb') as fo:
         meta_dict = pickle.load(fo)
+    with open(dataset_folder_path + '/open_meta.pkl', 'rb') as fo:
+        open_meta_dict = pickle.load(fo)
 
     if args.dataset in ['mnist', 'svhn', 'cifar10']:
         known_num_classes = 6
@@ -80,7 +81,7 @@ if __name__ == '__main__':
                                     transforms.CenterCrop((32, 32)),
                                     transforms.ToTensor(),
                                 ]))
-    unseen_dataset = CIFARDataset(open_test_obj, meta_dict, open_class_to_idx,
+    unseen_dataset = CIFARDataset(open_test_obj, open_meta_dict, open_class_to_idx,
                                   transforms.Compose([
                                       transforms.Resize((45, 45)),
                                       transforms.CenterCrop((32, 32)),

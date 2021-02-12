@@ -128,6 +128,8 @@ def main():
         class_to_idx_ = '{}/split{}/class_to_idx.pkl'.format(DATASET_PATH, idx)
 
         meta_ = '{}/split{}/meta.pkl'.format(DATASET_PATH, idx)
+        open_meta_ = '{}/split{}/open_meta.pkl'.format(DATASET_PATH, idx)
+
         open_class_to_idx_ = '{}/split{}/open_class_to_idx.pkl'.format(DATASET_PATH, idx)
         open_idx_to_class_ = '{}/split{}/open_idx_to_class.pkl'.format(DATASET_PATH, idx)
 
@@ -138,6 +140,8 @@ def main():
         save_image_dataset(class_to_idx, class_to_idx_)
 
         save_image_dataset(meta_dict, meta_)
+        save_image_dataset(meta_dict, open_meta_)
+
         save_image_dataset(open_class_to_idx, open_class_to_idx_)
         save_image_dataset(open_idx_to_class, open_idx_to_class_)
 

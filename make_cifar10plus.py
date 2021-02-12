@@ -42,8 +42,8 @@ def main():
     mkdir(DATASET_PATH + '/images/test/')
 
     print("Downloading {} dataset files to {}...".format(DATASET_NAME, DATASET_PATH))
-    download(DATASET_PATH, 'cifar-10-python.tar.gz', IMAGES_LABELS_URL)
-    download(DATASET_PATH, 'cifar-100-python.tar.gz', CIFAR100_IMAGES_LABELS_URL)
+    #download(DATASET_PATH, 'cifar-10-python.tar.gz', IMAGES_LABELS_URL)
+    #download(DATASET_PATH, 'cifar-100-python.tar.gz', CIFAR100_IMAGES_LABELS_URL)
 
     train_labels = []
     train_filenames = []
@@ -77,7 +77,11 @@ def main():
         examples.append(example)
     cifar100_examples = get_examples(DATASET_PATH, image_folder, 'test')
 
-    splits = [[0, 1, 8, 9]]
+    splits = [[0, 1, 8, 9],
+    [0, 1, 8, 9],
+    [0, 1, 8, 9],
+    [0, 1, 8, 9],
+    [0, 1, 8, 9]]
     for idx, split in enumerate(splits):
         if not os.path.exists(DATASET_PATH + '/split' + str(idx)):
             os.mkdir(DATASET_PATH + '/split' + str(idx))
@@ -109,17 +113,21 @@ def main():
             if e['class'] in cifar100_splits[idx]:
                 open_test_examples['filenames'] += [e['filename'].encode()]
                 open_test_examples['data'] += [e['data']]
-                open_test_examples['labels'] += [e['label']]
+                open_test_examples['labels'] += [cifar100_splits[idx].index(e['class'])]
+        open_meta_dict =  {'image_size': 32, 'image_channels': 3}
+        open_meta_dict['class_names'] = cifar100_splits[idx]
         open_class_to_idx = {}
         open_idx_to_class = {}
-        open_idx_to_class[10] = 'cifar100'
-        open_class_to_idx['cifar100'] = 10
+        for _idx, item in enumerate(cifar100_splits[idx]):
+            open_idx_to_class[_idx] = item
+            open_class_to_idx[item] = _idx
 
         class_to_idx = {}
         idx_to_class = {}
 
         meta_dict = {'image_size': 32, 'image_channels': 3}
-        meta_dict['label_names'] = CIFAR_CLASSES
+        meta_dict['class_names'] = CIFAR_CLASSES
+        
         fake_index = 0
         for _idx in split:
             idx_to_class[fake_index] = CIFAR_CLASSES[_idx]
@@ -132,6 +140,7 @@ def main():
         class_to_idx_ = '{}/split{}/class_to_idx.pkl'.format(DATASET_PATH, idx)
 
         meta_ = '{}/split{}/meta.pkl'.format(DATASET_PATH, idx)
+        open_meta_ = '{}/split{}/open_meta.pkl'.format(DATASET_PATH, idx)
         open_class_to_idx_ = '{}/split{}/open_class_to_idx.pkl'.format(DATASET_PATH, idx)
         open_idx_to_class_ = '{}/split{}/open_idx_to_class.pkl'.format(DATASET_PATH, idx)
 
@@ -142,6 +151,7 @@ def main():
         save_image_dataset(class_to_idx, class_to_idx_)
 
         save_image_dataset(meta_dict, meta_)
+        save_image_dataset(open_meta_dict, open_meta_)
         save_image_dataset(open_class_to_idx, open_class_to_idx_)
         save_image_dataset(open_idx_to_class, open_idx_to_class_)
 
@@ -228,7 +238,7 @@ def get_examples(file_path, image_folder, fold):
         examples.append({
             'filename': filename,
             'data': pixels,
-            'label': 10,
+            'label': fine_labels[i],
             'class': fine_label,
         })
     print('Wrote {} images for fold {}'.format(len(examples), fold))

@@ -84,12 +84,13 @@ def mkdir(path):
 
 def download(DATASET_DIR, url):
     filename = os.path.join(DATASET_DIR)
-
-    mkdir(filename)
-    os.system('wget -P {} {}'.format(filename, url))
-    if url.endswith('.zip'):
-        os.system('unzip -d {} {}.zip'.format(DATASET_DIR, os.path.join(filename, 'tiny-imagenet-200')))
-
+    if not os.path.exists(filename):
+        mkdir(filename)
+        os.system('wget -P {} {}'.format(filename, url))
+    if not os.path.join(filename, 'tiny-imagenet-200'):
+        if url.endswith('.zip'):
+            os.system('unzip -d {} {}.zip'.format(DATASET_DIR, os.path.join(filename, 'tiny-imagenet-200')))
+        
 
 def save_dataset(examples, output_filename):
     print("Writing {} items to {}".format(len(examples), output_filename))
@@ -123,7 +124,7 @@ if __name__ == '__main__':
     for wnid in os.listdir(os.path.join(data_path, 'train')):
         filenames = os.listdir(os.path.join(data_path, 'train', wnid, 'images'))
         for filename in filenames:
-            file_path = os.path.join(data_path,  'train', wnid, 'images', filename)
+            file_path = os.path.join(data_path, 'train', wnid, 'images', filename)
             img = Image.open(file_path)
             if img.mode != 'RGB':
                 img = img.convert(mode='RGB')
@@ -132,8 +133,9 @@ if __name__ == '__main__':
                 'class': wnid_names[wnid],
                 'label': wnid,
                 'fold': 'train',
-                'data': img
+                'data': img.copy()
             })
+            img.close()
 
     # Use validation set as a test set
     for line in open(os.path.join(data_path, 'val/val_annotations.txt')).readlines():
@@ -147,8 +149,9 @@ if __name__ == '__main__':
             'class': wnid_names[wnid],
             'label': wnid,
             'fold': 'test',
-            'data': img
+            'data': img.copy()
         })
+        img.close()
 
     # Split animal and nonanimal (plants, vehicles, objects, etc)
     animal_examples = [e for e in examples if e['class'] in ANIMAL_CLASSES]
@@ -237,6 +240,7 @@ if __name__ == '__main__':
         class_to_idx_ = os.path.join(DATASET_DIR, 'split{}/class_to_idx.pkl'.format(split))
 
         meta_ = os.path.join(DATASET_DIR, 'split{}/meta.pkl'.format(split))
+        open_meta_ = os.path.join(DATASET_DIR, 'split{}/open_meta.pkl'.format(split))
         open_class_to_idx_ = os.path.join(DATASET_DIR, 'split{}/open_class_to_idx.pkl'.format(split))
         open_idx_to_class_ = os.path.join(DATASET_DIR, 'split{}/open_idx_to_class.pkl'.format(split))
 
@@ -247,6 +251,7 @@ if __name__ == '__main__':
         save_dataset(class_to_idx, class_to_idx_)
 
         save_dataset(meta_dict, meta_)
+        save_dataset(meta_dict, open_meta_)
         save_dataset(open_class_to_idx, open_class_to_idx_)
         save_dataset(open_idx_to_class, open_idx_to_class_)
 
