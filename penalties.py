@@ -14,7 +14,7 @@ def compute_rpl_logits(model, outputs, gamma):
     # output should be batch_size x num_classes
     logits = gamma * torch.mean(dist_to_rp, dim=2)
     
-    return logits, dist_to_rp
+    return logits, dist_to_rp, outputs
     
 
 def compute_rpl_loss(model, outputs, labels, criterion, lamb, gamma, divide):
@@ -23,7 +23,7 @@ def compute_rpl_loss(model, outputs, labels, criterion, lamb, gamma, divide):
     open_loss = torch.tensor(0.).cuda()
     ### BEGIN: Compute closed loss and open loss ###
 
-    logits, dist_to_rp = compute_rpl_logits(model, outputs, gamma)
+    logits, dist_to_rp, _ = compute_rpl_logits(model, outputs, gamma)
     
     for i in range(0, labels.shape[0]):
         curr_label = labels[i].item()

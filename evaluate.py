@@ -6,10 +6,12 @@ import torch
 from penalties import compute_rpl_loss, compute_rpl_logits
 
 
-def collect_rpl_max(model, loader, gamma, cifar=False, idx_to_class=None):
+def collect_rpl_max(model, loader, gamma, total_number, tsne_fea, idx_to_class=None):
     """ Care about 1) identity of max known class 2) distance to reciprocal points of this class. """
+
     with torch.no_grad():
         confidence_dict = {}
+        corr_number = 0
         for _, i in enumerate(idx_to_class):
             confidence_dict[idx_to_class[i]] = []
         for i, data in enumerate(loader, 0):
@@ -19,30 +21,32 @@ def collect_rpl_max(model, loader, gamma, cifar=False, idx_to_class=None):
             label_idx = data['label']
             outputs = model.forward(img)
 
-            logits, dist_to_rp = compute_rpl_logits(model, outputs, gamma)
+            logits, dist_to_rp, outputs = compute_rpl_logits(model, outputs, gamma)
             max_distances, max_indices = torch.max(logits, 1)
+            corr_number += torch.sum(max_indices == label_idx.cuda()).item()
             probs = torch.softmax(logits, dim=1)
             max_probs, max_indices = torch.max(probs, 1)
 
-            for j in range(0, img.shape[0]):
-                correct_leaf = idx_to_class[label_idx[j].item()]
 
+            for j in range(0, img.shape[0]):
+
+                if len(tsne_fea[data['label'][j].item()]) < 100:
+                    
+                    tsne_fea[data['label'][j].item()] += [outputs[j].tolist()]
+                correct_leaf = idx_to_class[label_idx[j].item()]
                 predicted_leaf_idx = max_indices[j].item()
                 dist = max_distances[j].item()
                 prob = max_probs[j].item()
-                confidence_dict[correct_leaf].append({'idx': predicted_leaf_idx, 'dist': dist, 'prob': prob})
-
+                confidence_dict[correct_leaf].append({'prediction': predicted_leaf_idx, 'label': data['label'][j].item(), 'dist': dist, 'prob': prob})
+        acc = corr_number / total_number
+        print('Closed ACC:', acc)
         return confidence_dict
 
 
 def evaluate_val(model, criterion, val_loader, gamma, lamb, divide, logger):
     with torch.no_grad():
-        running_loss = 0.0
-        normal_correct = 0.
         used_correct = 0.
-        normal_total = 0.0
         used_total = 0.0
-        normal_running_loss = 0.
         used_running_loss = 0.
         val_rpl_loss = 0.
 

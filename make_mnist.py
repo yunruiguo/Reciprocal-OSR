@@ -37,7 +37,7 @@ def download_mnist_data(path):
     file_path = os.path.join(path, 'mnist.npz')
     if not os.path.exists(file_path):
         response = requests.get(DOWNLOAD_URL)
-        open(path, 'wb').write(response.content)
+        open(file_path, 'wb').write(response.content)
     with np.load(file_path) as f:
         x_test, y_test = f['x_test'], f['y_test']
         VAL_SIZE = 5000
@@ -139,7 +139,7 @@ def download_mnist(latest_md5):
         idx_to_class = {}
 
         meta_dict = {'image_size': 32, 'image_channels': 1}
-        meta_dict['label_names'] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+        meta_dict['class_names'] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
         fake_index = 0
         for _idx in range(10):
             if _idx not in split:

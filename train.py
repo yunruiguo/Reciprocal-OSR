@@ -26,14 +26,15 @@ from models.backbone_wide_resnet import wide_encoder
 from penalties import compute_rpl_loss
 from utils import count_parameters, setup_logger
 
-
+def str2bool(v):
+    return v.lower() in ('ture', '1')
     
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--n_epochs", type=int,
-                        help="number of epochs to train", default=90)
+                        help="number of epochs to train", default=120)
     parser.add_argument("--gpu_id", type=int,
                         help="which gpu will be used", default=1)
     parser.add_argument("--gap", type=str,
@@ -41,9 +42,9 @@ if __name__ == '__main__':
     parser.add_argument("--lr_scheduler", type=str,
                         help="patience, step.", default="step")
     parser.add_argument("--dataset", type=str,
-                        help="mnist, svhn, cifar10, cifar10plus, cifar50plus, tiny_imagenet", default="tiny_imagenet")
+                        help="mnist, svhn, cifar10, cifar10plus, cifar50plus, tiny_imagenet", default="cifar10")
     parser.add_argument("--split", type=str,
-                        help="Split of dataset, split0, split1...", default="split2")
+                        help="Split of dataset, split0, split1...", default="split0")
     parser.add_argument("--latent_size", type=int,
                         help="Dimension of embeddings.", default=256)
     parser.add_argument("--num_rp_per_cls", type=int,
@@ -71,8 +72,8 @@ if __name__ == '__main__':
                         help="architecture of backbone", default="wide_resnet")
     parser.add_argument("--checkpoint_folder_path", type=str,
                         help="./ckpt", default="./ckpt/")
-    parser.add_argument("--load_history_model", type=bool,
-                        help="True or False", default=True)
+    parser.add_argument("--load_history_model", type=str2bool,
+                        help="True or False", default=False)
 
     args = parser.parse_args()
     os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu_id)
@@ -108,24 +109,23 @@ if __name__ == '__main__':
             val_trans = transforms.Compose([transforms.Resize((32, 32)),
                                             transforms.ToTensor()])
         else:
-            train_trans = transforms.Compose([transforms.RandomResizedCrop((32, 32)),
+            train_trans = transforms.Compose([transforms.RandomCrop((32, 32), padding=4),
                                               transforms.RandomHorizontalFlip(0.5),
                                               transforms.ToTensor()])
             val_trans = transforms.Compose([transforms.ToTensor()])
     elif args.dataset in ['cifar10plus', 'cifar50plus']:
         known_num_classes = 4
-        train_trans = transforms.Compose([transforms.RandomResizedCrop((32, 32)),
+        train_trans = transforms.Compose([transforms.RandomCrop((32, 32), padding=4),
                                           transforms.RandomHorizontalFlip(0.5),
                                           transforms.ToTensor()])
         val_trans = transforms.Compose([transforms.ToTensor()])
     elif args.dataset == 'tiny_imagenet':
         known_num_classes = 20
-        train_trans = transforms.Compose([transforms.Resize((45, 45)),
-                                          transforms.RandomHorizontalFlip(0.5),
-                                          transforms.RandomCrop((32, 32)),
-                                          transforms.ToTensor()])
-        val_trans = transforms.Compose([transforms.Resize((45, 45)),
-                                        transforms.CenterCrop((32, 32)),
+        train_trans = transforms.Compose([transforms.Resize((32, 32)),
+        transforms.RandomCrop((32, 32), padding=4),
+        transforms.RandomHorizontalFlip(0.5),
+        transforms.ToTensor()])
+        val_trans = transforms.Compose([transforms.Resize((32, 32)),
                                         transforms.ToTensor()])
     else:
         raise ValueError('Wrong dataset.')

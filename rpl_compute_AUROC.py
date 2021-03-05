@@ -1,21 +1,55 @@
 import argparse
 import os
 import shutil
-
+from sklearn import manifold
 import torch
 import pickle
 
-import torchvision.models as models
+import numpy as np
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
-
+from sklearn.metrics import roc_curve, auc, roc_auc_score, f1_score
 from datasets.cifar_dataset import CIFARDataset
-from datasets.dataset import StandardDataset
-from datasets.open_dataset import OpenDataset
+import matplotlib.pyplot as plt
 from models.backbone import encoder32
 from models.backbone_wide_resnet import wide_encoder
-from evaluate import collect_rpl_max, seenval_baseline_thresh, unseenval_baseline_thresh
+from evaluate import collect_rpl_max
 
+def plot_AUROC(Y, P, pos_label=1):
+    fpr, tpr, _ = roc_curve(Y, P, pos_label=1)
+    roc_auc = auc(fpr, tpr)
+    print("AUC: ", roc_auc)
+
+    plt.figure()
+    lw = 2
+    plt.plot(fpr, tpr, color='darkorange',
+             lw=lw, label='ROC curve (area = %0.2f)' % roc_auc)
+    plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title('Receiver operating characteristic example')
+    plt.legend(loc="lower right")
+    plt.show()
+
+def plot_TSNE(X, y):
+    '''t-SNE'''
+    tsne = manifold.TSNE(n_components=2, init='pca', random_state=501)
+    X_tsne = tsne.fit_transform(X)
+
+    print("Org data dimension is {}. Embedded data dimension is {}".format(X.shape[-1], X_tsne.shape[-1]))
+
+    '''嵌入空间可视化'''
+    x_min, x_max = X_tsne.min(0), X_tsne.max(0)
+    X_norm = (X_tsne - x_min) / (x_max - x_min)  # 归一化
+    plt.figure(figsize=(8, 8))
+    for i in range(X_norm.shape[0]):
+        plt.text(X_norm[i, 0], X_norm[i, 1], str(y[i]), color=plt.cm.Set1(y[i]),
+                 fontdict={'weight': 'bold', 'size': 9})
+    plt.xticks([])
+    plt.yticks([])
+    plt.show()
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
@@ -31,13 +65,13 @@ if __name__ == '__main__':
     parser.add_argument("--gamma", type=float,
                         help="", default=0.5)
     parser.add_argument("--gpu_id", type=str,
-                        help="which gpu will be used", default='1')
+                        help="which gpu will be used", default=0)
     parser.add_argument("--backbone", type=str,
                         help="architecture of backbone", default="wide_resnet")
     parser.add_argument("--dataset", type=str,
                         help="mnist, svhn, cifar10, cifar10plus, cifar50plus, tiny_imagenet", default="tiny_imagenet")
     parser.add_argument("--split", type=str,
-                        help="Split of dataset, split0, split1...", default="split3")
+                        help="Split of dataset, split0, split1...", default="split0")
 
     parser.add_argument("--dataset_folder", type=str,
                         help="name of folder where dataset lives.",
@@ -77,14 +111,12 @@ if __name__ == '__main__':
 
     seen_dataset = CIFARDataset(test_obj, meta_dict, class_to_idx,
                                 transforms.Compose([
-                                    transforms.Resize((45, 45)),
-                                    transforms.CenterCrop((32, 32)),
+                                    transforms.Resize((32, 32)),
                                     transforms.ToTensor(),
                                 ]))
     unseen_dataset = CIFARDataset(open_test_obj, open_meta_dict, open_class_to_idx,
                                   transforms.Compose([
-                                      transforms.Resize((45, 45)),
-                                      transforms.CenterCrop((32, 32)),
+                                      transforms.Resize((32, 32)),
                                       transforms.ToTensor(),
                                   ]))
 
@@ -104,47 +136,65 @@ if __name__ == '__main__':
     model.load_state_dict(torch.load(experiment_ckpt_path + '/best_model.pt'))
     model.cuda()
     model.eval()
-
-    seen_confidence_dict = collect_rpl_max(model, seen_loader, args.gamma, cifar=True,
+    known_tsne_fea = {}
+    unknown_tsne_fea = {}
+    for i in range(known_num_classes):
+        known_tsne_fea[i] = []
+    for i in open_class_to_idx:
+        unknown_tsne_fea[open_class_to_idx[i]] = []
+    seen_confidence_dict = collect_rpl_max(model, seen_loader, args.gamma, len(seen_dataset), known_tsne_fea,
                                            idx_to_class=idx_to_class)
-    unseen_confidence_dict = collect_rpl_max(model, unseen_loader, args.gamma, cifar=True,
+    unseen_confidence_dict = collect_rpl_max(model, unseen_loader, args.gamma, len(unseen_dataset), unknown_tsne_fea,
                                              idx_to_class=open_idx_to_class)
-
+    tsne_fea = {**known_tsne_fea, **unknown_tsne_fea}
     # Computing AUC
-    from sklearn.metrics import roc_auc_score
-
+    metric = 'prob'
+    thres = 0.99
     preds = []
     labels = []
+    pre_labels = []
+    true_labels = []
     dist = []
-    for known_class_str, samples in seen_confidence_dict.items():
+    for _, samples in seen_confidence_dict.items():
         for s in samples:
             labels += [1]
+            true_labels += [s['label']]
             preds += [s['prob']]
             dist += [s['dist']]
+            if s[metric] > thres:
+                pre_labels += [s['prediction']]
+            else:
+                pre_labels += [known_num_classes]
 
-    for known_class_str, samples in unseen_confidence_dict.items():
+    for _, samples in unseen_confidence_dict.items():
         for s in samples:
             labels += [0]
             preds += [s['prob']]
             dist += [s['dist']]
 
+            if s[metric] > thres:
+                pre_labels += [s['prediction']]
+            else:
+                pre_labels += [known_num_classes]
+            
+            true_labels += [known_num_classes]
+
     auc_prob = roc_auc_score(labels, preds)
     auc_dist = roc_auc_score(labels, dist)
     print('AUC on prob', auc_prob)
     print('AUC on dist', auc_dist)
-
-"""
-    print("Dist-Auroc score: " + str(dist_auroc_score))
-    print("Prob-Auroc score: " + str(prob_auroc_score))
-
-    metrics = summarize(seen_info, unseen_info, thresh, verbose=False)
-    metrics['dist_auroc_lwnealstyle'] = dist_auroc_score
-    metrics['prob_auroc_lwnealstyle'] = prob_auroc_score
-    metrics['dist_OSR_CSR_AUC'] = dist_metrics['OSR_CSR_AUC']
-
-    print("prob-AUC score: " + str(metrics['OSR_CSR_AUC']))
-    print("dist-AUC score: " + str(metrics['dist_OSR_CSR_AUC']))
-
-    with open(metrics_folder + 'metrics.pkl', 'wb') as f:
-        pickle.dump(metrics, f)
-"""
+    X = []
+    Y = []
+    for key in known_tsne_fea.keys():
+        X.extend(known_tsne_fea[key])
+        Y.extend([key]*len(known_tsne_fea[key]))
+    for key in unknown_tsne_fea.keys():
+        X.extend(unknown_tsne_fea[key])
+        Y.extend([known_num_classes]*len(unknown_tsne_fea[key]))
+    dims = (len(X), len(X[0]))
+    f1_values = f1_score(true_labels, pre_labels, average=None)
+    print('F1-Scores:', f1_values)
+    X, Y = np.reshape(X, dims), np.asarray(Y)
+    plot_TSNE(X, Y)
+    plot_AUROC(labels, preds)
+    plot_AUROC(labels, dist)

@@ -113,8 +113,8 @@ def main():
         class_to_idx = {}
         idx_to_class = {}
 
-        meta_dict = {'num_cases_per_batch': 10000, 'num_vis': 3072}
-        meta_dict['label_names'] = CIFAR_CLASSES
+        meta_dict = {'image_size': 32, 'image_channels': 3}
+        meta_dict['class_names'] = CIFAR_CLASSES
         fake_index = 0
         for _idx in range(10):
             if _idx not in split:
